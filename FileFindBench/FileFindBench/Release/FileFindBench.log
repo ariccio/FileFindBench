@@ -1,0 +1,1403 @@
+﻿Build started 10/3/2014 9:59:24 PM.
+Environment at start of build:
+ADVISOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Advisor XE 2013\
+ADVIXE_LANG = en
+ALLUSERSPROFILE = C:\ProgramData
+AMPLXE_LANG = en
+APPDATA = C:\Users\Alexander Riccio\AppData\Roaming
+cat = C:\wbin\cat.exe
+CHROME_ETW_LOGGING = 1
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = ALEXANDERLAPTOP
+ComSpec = C:\WINDOWS\system32\cmd.exe
+diff = C:\wbin\diff.exe
+dot = "C:\Python33\Lib\site-packages\graphviz\dot.py"
+DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
+EMET_Settings = Jul 30 2014 @ 18:41:05; PID: 0x5a0/1440; ReportingSettings:7; ExploitAction:1; DEP:0; SEHOP:0; NullPage:0; HeapSpray:0; EAF:0; EAF+:1; MandatoryASLR:0; BottomUpASLR:0; StackPivot:0; Caller:0; LoadLib:0; MemProt:0; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:0=15; ASR:0; nHk:6; 
+FP_NO_HOST_CHECK = NO
+grep = C:\wbin\grep.exe
+head = C:\wbin\head.exe
+HOMEDRIVE = C:
+HOMEPATH = \Users\Alexander Riccio
+ICPP_COMPILER14 = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\
+INSPECTOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Inspector XE 2013\
+INSPXE_LANG = en
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+INTEL_LICENSE_FILE = C:\Program Files (x86)\Common Files\Intel\Licenses
+IPG_Dir = C:\Program Files\Intel\Power Gadget 3.0
+IPG_Ver = 3.0
+less = C:\wbin\less.exe
+LOCALAPPDATA = C:\Users\Alexander Riccio\AppData\Local
+LOGONSERVER = \\ALEXANDERLAPTOP
+make = C:\wbin\make.exe
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 8
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\Program Files\SlikSvn\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW
+pip-2.7 = C:\Python27\Scripts\pip-script.py
+PkgDefApplicationConfigFile = C:\Users\Alexander Riccio\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+printenv.exe = C:\wbin\printenv.exe
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3c03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+python = C:\Python33\python.exe
+python27 = C:\Python27\python.exe
+sed = C:\wbin\sed.exe
+seq = C:\wbin\seq.exe
+split = C:\wbin\split.exe
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+tail = C:\wbin\tail.exe
+tar = C:\wbin\tar.exe
+TEMP = C:\Users\ALEXAN~1\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+test = C:\wbin\test.exe
+TFS_DIR = C:\Program Files\Protector Suite\
+TMP = C:\Users\ALEXAN~1\AppData\Local\Temp
+TMPDIR = C:\Windows\Temp
+tr = C:\wbin\tr.exe
+uname = C:\wbin\uname.exe
+unexpand = C:\wbin\unexpand.exe
+unrar = C:\wbin\unrar.exe
+unzip = C:\wbin\unzip.exe
+USERDOMAIN = AlexanderLaptop
+USERDOMAIN_ROAMINGPROFILE = AlexanderLaptop
+USERNAME = AlexanderRiccio
+USERPROFILE = C:\Users\Alexander Riccio
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VisualStudioDir = C:\Users\Alexander Riccio\Documents\Visual Studio 2013
+VisualStudioEdition = Microsoft Visual Studio Professional 2013
+VisualStudioVersion = 12.0
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VS90COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+VSLANG = 1033
+VTUNE_AMPLIFIER_XE_2013_DIR = C:\Program Files (x86)\Intel\VTune Amplifier XE 2013\
+wc = C:\wbin\wc.exe
+wget = C:\wbin\wget.exe
+windir = C:\WINDOWS
+xargs = C:\wbin\xargs.exe
+yes = C:\wbin\yes.exe
+zcat = C:\wbin\zcat.exe
+_NT_DEBUGGER_EXTENSION_PATH = "C:\Users\Alexander Riccio\WinDBGExtensions"
+_NT_SYMBOL_PATH = symsrv*symsrv.dll*srv*C:\localsymbols*http://msdl.microsoft.com/download/symbols*http://chromium-browser-symsrv.commondatastorage.googleapis.com
+__COMPAT_LAYER = Installer
+
+21:59:24.062     1>Project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" on node 2 (Clean target(s)).
+21:59:24.062     1>Initial Properties:
+                   __COMPAT_LAYER = Installer
+                   _AfterCompileWinFXInternalDependsOn = 
+                           PrepareResourcesForSatelliteAssemblies;
+                           MergeLocalizationDirectives;
+                           AfterCompileWinFX
+                       
+                   _ApplicableDebuggers = Desktop
+                   _BuildActionType = Build
+                   _BuildSuffix = 
+                   :VCEnd
+                   _CheckDev11ToolsInstalled = true
+                   _CompileTargetNameForLocalType = _CompileTemporaryAssembly
+                   _DebugSymbolsProduced = false
+                   _DeploymentApplicationManifestIdentity = FileFindBench.exe
+                   _DeploymentBuiltUpdateInterval = 0
+                   _DeploymentBuiltUpdateIntervalUnits = Days
+                   _DeploymentDeployManifestIdentity = FileFindBench.application
+                   _DeploymentFileMappingExtension = 
+                   _DeploymentPublishableProjectDefault = true
+                   _DeploymentTargetApplicationManifestFileName = FileFindBench.exe.manifest
+                   _DeploymentUrl = 
+                   _Dev11Installed = 
+                   _Dev11StoreToolInstalled = true
+                   _Dev11WDExpressInstalled = 
+                   _Dev11Win8ExpressInstalled = 1
+                   _DocumentationFileProduced = false
+                   _FullFrameworkReferenceAssemblyPaths = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _GenerateBindingRedirectsIntermediateAppConfig = Release\FileFindBench.vcxproj.FileFindBench.exe.config
+                   _GetChildProjectCopyToOutputDirectoryItems = true
+                   _IgnoreInstalledPlatformToolset_v110 = true
+                   _IgnoreInstalledPlatformToolset_v110_xp = true
+                   _LatestWdkDriverAppToolset = WindowsApplicationForDrivers8.1
+                   _LatestWdkKmDriverToolset = WindowsKernelModeDriver8.1
+                   _LatestWdkUmDriverToolset = WindowsUserModeDriver8.1
+                   _ManifestDependsOn = 
+                         ;
+                         
+                         ;
+                         ComputeManifestInputsTargets;
+                       ;
+                         Manifest;
+                         ComputeManifestGeneratedLinkerInputs;
+                       
+                   _NT_DEBUGGER_EXTENSION_PATH = "C:\Users\Alexander Riccio\WinDBGExtensions"
+                   _NT_SYMBOL_PATH = symsrv*symsrv.dll*srv*C:\localsymbols*http://msdl.microsoft.com/download/symbols*http://chromium-browser-symsrv.commondatastorage.googleapis.com
+                   _NT_TARGET_VERSION = 0x603
+                   _NT_TARGET_VERSION_LONGHORN = 0x0600
+                   _NT_TARGET_VERSION_NT4 = 0x0400
+                   _NT_TARGET_VERSION_VISTA = 0x0600
+                   _NT_TARGET_VERSION_WIN7 = 0x0601
+                   _NT_TARGET_VERSION_WIN8 = 0x0602
+                   _NT_TARGET_VERSION_WINV63 = 0x0603
+                   _OriginalConfiguration = Release
+                   _OriginalPlatform = Win32
+                   _PlatformDefaultPropsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\\Platforms\Win32\\Platform.default.props
+                   _PlatformFolder = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Win32\
+                   _PlatformToolsetFriendlyNameFor_Intel_C___Compiler_12_1 = Intel C++ Compiler 12.1 (v100)
+                   _PlatformToolsetFriendlyNameFor_Intel_C___Compiler_XE_12_0 = Intel C++ Compiler XE 12.0 (v100)
+                   _PlatformToolsetFriendlyNameFor_Intel_C___Compiler_XE_12_1 = Intel C++ Compiler XE 12.1 (v100)
+                   _PlatformToolsetFriendlyNameFor_Intel_C___Compiler_XE_13_0 = Intel C++ Compiler XE 13.0 (v100)
+                   _PlatformToolsetFriendlyNameFor_Intel_C___Compiler_XE_14_0 = Intel C++ Compiler XE 14.0
+                   _PlatformToolsetFriendlyNameFor_Intel_Parallel_Composer_2011 = Intel Parallel Composer 2011 (v100)
+                   _PlatformToolsetFriendlyNameFor_v100 = Visual Studio 2010 (v100)
+                   _PlatformToolsetFriendlyNameFor_v110 = Visual Studio 2012 (v110)
+                   _PlatformToolsetFriendlyNameFor_v110_wp80 = Windows Phone 8.0 (v110_wp80)
+                   _PlatformToolsetFriendlyNameFor_v110_xp = Visual Studio 2012 - Windows XP (v110_xp)
+                   _PlatformToolsetFriendlyNameFor_v120 = Visual Studio 2013 (v120)
+                   _PlatformToolsetFriendlyNameFor_v120_wp81 = Windows Phone 8.1 (v120_wp81)
+                   _PlatformToolsetFriendlyNameFor_v120_xp = Visual Studio 2013 - Windows XP (v120_xp)
+                   _PlatformToolsetFriendlyNameFor_v90 = Visual Studio 2008 (v90)
+                   _PlatformToolsetShortNameFor_Intel_C___Compiler_12_1 = Intel C++ 12.1
+                   _PlatformToolsetShortNameFor_Intel_C___Compiler_XE_12_0 = Intel C++ XE 12.0
+                   _PlatformToolsetShortNameFor_Intel_C___Compiler_XE_12_1 = Intel C++ XE 12.1
+                   _PlatformToolsetShortNameFor_Intel_C___Compiler_XE_13_0 = Intel C++ 13.0
+                   _PlatformToolsetShortNameFor_Intel_C___Compiler_XE_14_0 = Intel C++ 14.0
+                   _PlatformToolsetShortNameFor_Intel_Parallel_Composer_2011 = Intel Parallel Composer 2011
+                   _PlatformToolsetShortNameFor_v100 = Visual Studio 2010
+                   _PlatformToolsetShortNameFor_v110 = Visual Studio 2012
+                   _PlatformToolsetShortNameFor_v110_wp80 = Windows Phone 8.0
+                   _PlatformToolsetShortNameFor_v110_xp = Visual Studio 2012 - Windows XP
+                   _PlatformToolsetShortNameFor_v120_wp81 = Windows Phone 8.1
+                   _PlatformToolsetShortNameFor_v90 = Visual Studio 2008
+                   _ProjectDefaultTargets = Build
+                   _PropertySheetDisplayName = Whole Program Optimization
+                   _RequireMCPass2ForMainAssembly = false
+                   _RequireMCPass2ForSatelliteAssemblyOnly = false
+                   _ResolveReferenceDependencies = false
+                   _ResourceCompileDependsOn = 
+                         
+                         ;
+                         BeforeResourceCompile;
+                       ;
+                         ;
+                         MakeDirsForResourceCompile;
+                         ResourceCompile;
+                         
+                         ;
+                         AfterResourceCompile;
+                       
+                       
+                   _ResourceNameInMainAssembly = FileFindBench.g.resources
+                   _SGenDllCreated = false
+                   _SGenDllName = FileFindBench.XmlSerializers.dll
+                   _SGenGenerateSerializationAssembliesConfig = Auto
+                   _SubKey = {7FA26C8E-F434-4AB6-B897-9C39F1F0CEDE}
+                   _TargetFrameworkDirectories = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _ToolsetPropsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Win32\PlatformToolsets\v120\Toolset.props
+                   _ToolsetTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Win32\PlatformToolsets\v120\Toolset.targets
+                   _UpgradePlatformToolsetFor_Intel_C___Compiler_12_1 = Intel C++ Compiler XE 14.0
+                   _UpgradePlatformToolsetFor_Intel_C___Compiler_XE_12_0 = Intel C++ Compiler XE 14.0
+                   _UpgradePlatformToolsetFor_Intel_C___Compiler_XE_12_1 = Intel C++ Compiler XE 14.0
+                   _UpgradePlatformToolsetFor_Intel_C___Compiler_XE_13_0 = Intel C++ Compiler XE 14.0
+                   _UpgradePlatformToolsetFor_Intel_C___Compiler_XE_14_0 = Intel C++ Compiler XE 14.0
+                   _UpgradePlatformToolsetFor_Intel_Parallel_Composer_2011 = Intel C++ Compiler XE 14.0
+                   _UpgradePlatformToolsetFor_v100 = v120
+                   _UpgradePlatformToolsetFor_v110 = v120
+                   _UpgradePlatformToolsetFor_v110_xp = v120_xp
+                   _UpgradePlatformToolsetFor_v120 = v120
+                   _UpgradePlatformToolsetFor_v90 = v120
+                   _UpgradePlatformToolsetFor_WindowsApplicationForDrivers8_0 = WindowsApplicationForDrivers8.1
+                   _UpgradePlatformToolsetFor_WindowsApplicationForDrivers8_1 = WindowsApplicationForDrivers8.1
+                   _UpgradePlatformToolsetFor_WindowsKernelModeDriver8_0 = WindowsKernelModeDriver8.1
+                   _UpgradePlatformToolsetFor_WindowsKernelModeDriver8_1 = WindowsKernelModeDriver8.1
+                   _UpgradePlatformToolsetFor_WindowsUserModeDriver8_0 = WindowsUserModeDriver8.1
+                   _UpgradePlatformToolsetFor_WindowsUserModeDriver8_1 = WindowsUserModeDriver8.1
+                   _VC_x64_ToolsInstalled = true
+                   _WdkProjectUpgraderName = WdkProjectUpgrader
+                   AddAdditionalExplicitAssemblyReferences = true
+                   AddAppConfigToBuildOutputs = true
+                   AddBuildInfoToAssembly = false
+                   AdditionalExplicitAssemblyReferences = System.Core;
+                   ADVISOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Advisor XE 2013\
+                   AfterBuildCompileTargets = 
+                         ;
+                         AfterBuildCompileEvent;
+                       
+                   AfterBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         AfterBuildGenerateSources;
+                       ;
+                         AfterBuildGenerateSourcesEvent;
+                       
+                   AfterBuildLinkTargets = 
+                         ;RunMergeNativeCodeAnalysis;RunNativeCodeAnalysis;
+                         CreateSatelliteAssemblies;
+                         _Appverifier;
+                         _Deploy;
+                         PrepareForRun;
+                         PostBuildEvent;
+                       
+                   AfterClCompileTargets = 
+                         ;
+                         AfterClCompile;
+                       
+                   AfterImpLibTargets = 
+                         ;
+                         AfterImpLib;
+                       
+                   AfterLibTargets = 
+                         ;
+                         AfterLib;
+                       
+                   AfterLinkTargets = 
+                         ;
+                         AfterLink;
+                       
+                   AfterManifestTargets = 
+                         ;
+                         AfterManifest;
+                       
+                   AfterMidlTargets = 
+                         ;
+                         AfterMidl;
+                       
+                   AfterResourceCompileTargets = 
+                         ;
+                         AfterResourceCompile;
+                       
+                   AllowedReferenceAssemblyFileExtensions = 
+                         .winmd;
+                         .dll;
+                         .exe
+                       
+                   AllowedReferenceRelatedFileExtensions = 
+                         .pdb;
+                         .xml;
+                         .pri
+                       
+                   AllowLocalNetworkLoopback = true
+                   AllProjectOutputGroupsDependsOn = 
+                         ;
+                         BuiltProjectOutputGroup;
+                         DebugSymbolsProjectOutputGroup;
+                         DocumentationProjectOutputGroup;
+                         SatelliteDllsProjectOutputGroup;
+                         SourceFilesProjectOutputGroup;
+                         ContentFilesProjectOutputGroup;
+                         SGenFilesOutputGroup
+                       
+                   ALLUSERSPROFILE = C:\ProgramData
+                   AlwaysCompileMarkupFilesInSeparateDomain = true
+                   APPDATA = C:\Users\Alexander Riccio\AppData\Roaming
+                   AssemblyFoldersSuffix = AssemblyFoldersEx
+                   AssemblyName = FileFindBench
+                   AssemblySearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {AssemblyFolders};
+                         {GAC};
+                         {RawFileName};
+                         C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\
+                       
+                   AssignTargetPathsDependsOn = 
+                   Attach = false
+                   AutoUnifyAssemblyReferences = false
+                   AvailablePlatforms = Any CPU,x86,x64
+                   BaseIntermediateOutputPath = obj\
+                   BasePlatformToolset = v120
+                   BeforeBuildCompileTargets = 
+                         ;
+                       
+                   BeforeBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         BeforeBuildGenerateSources;
+                       ;
+                       
+                   BeforeClCompileTargets = 
+                         ;
+                         BeforeClCompile;
+                       
+                   BeforeImpLibTargets = 
+                         ;
+                         BeforeImpLib;
+                       
+                   BeforeLibTargets = 
+                         ;
+                         BeforeLib;
+                       
+                   BeforeLinkTargets = 
+                         ;
+                         BeforeLink;
+                       
+                   BeforeManifestTargets = 
+                         ;
+                         BeforeManifest;
+                       
+                   BeforeMidlTargets = 
+                         ;
+                         BeforeMidl;
+                       
+                   BeforeResourceCompileTargets = 
+                         ;
+                         BeforeResourceCompile;
+                       
+                   BuildCompileAction = _BuildCompileAction
+                   BuildCompileTargets = 
+                         ;
+                         _ClCompile;
+                         _ResGen;
+                         _ResourceCompile;
+                         
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       ;
+                       
+                   BuildDependsOn = 
+                         _PrepareForBuild;
+                         
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       ;
+                         AfterBuild;
+                         FinalizeBuildStatus;
+                       
+                   BuildGenerateSourcesAction = _BuildGenerateSourcesAction
+                   BuildGenerateSourcesTargets = 
+                         ;
+                         PreBuildEvent;
+                         _Xsd;
+                         _Midl;
+                       
+                   BuildInfoBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\BuildInfo
+                   BuildInfoTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets
+                   BuildingInsideVisualStudio = true
+                   BuildingProject = true
+                   BuildInParallel = true
+                   BuildLibTargets = 
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       
+                   BuildLinkAction = _BuildLinkAction
+                   BuildLinkTargets = 
+                         ;
+                         ComputeLegacyManifestEmbedding;
+                         _Link;
+                         _ALink;
+                         _Manifest;
+                         RegisterOutput;
+                         _XdcMake;
+                         _BscMake;
+                       
+                   BuildProjectReferences = true
+                   BuildSteps = 
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       
+                   BuildSystem = MSBuild
+                   BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   BuiltProjectOutputGroupDependsOn = PrepareForBuild
+                   CAExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+                   cat = C:\wbin\cat.exe
+                   CharacterSet = Unicode
+                   CHROME_ETW_LOGGING = 1
+                   CleanDependsOn = 
+                         
+                         _PrepareForClean;
+                         
+                         
+                         BeforeClean;
+                         UnmanagedUnregistration;
+                         CoreClean;
+                         CleanReferencedProjects;
+                         CleanPublishFolder;
+                         AfterClean
+                       ;
+                         EntityClean;
+                       ;
+                       ;
+                         CppClean
+                       
+                   CleanFile = FileFindBench.vcxproj.FileListAbsolute.txt
+                   CLRSupport = false
+                   ClYieldDuringToolExecution = true
+                   CodeAnalysisApplyLogFileXsl = false
+                   CodeAnalysisFailOnMissingRules = false
+                   CodeAnalysisForceOutput = true
+                   CodeAnalysisGenerateSuccessFile = true
+                   CodeAnalysisIgnoreGeneratedCode = true
+                   CodeAnalysisIgnoreInvalidTargets = true
+                   CodeAnalysisIgnoreMissingIndirectReferences = false
+                   CodeAnalysisInputAssembly = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe
+                   CodeAnalysisLogFile = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.CodeAnalysisLog.xml
+                   CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cpp
+                   CodeAnalysisOutputToConsole = false
+                   CodeAnalysisOverrideRuleVisibilities = false
+                   CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\
+                   CodeAnalysisQuiet = false
+                   CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+                   CodeAnalysisRuleSet = NativeRecommendedRules.ruleset
+                   CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\\Rule Sets
+                   CodeAnalysisSaveMessagesToReport = Active
+                   CodeAnalysisSearchGlobalAssemblyCache = true
+                   CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\
+                   CodeAnalysisSucceededFile = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.lastcodeanalysissucceeded
+                   CodeAnalysisSummary = false
+                   CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+                   CodeAnalysisTimeout = 120
+                   CodeAnalysisTLogFile = Release\CodeAnalysis.read.1.tlog
+                   CodeAnalysisTreatWarningsAsErrors = false
+                   CodeAnalysisUpdateProject = false
+                   CodeAnalysisUseTypeNameInSuppression = true
+                   CodeAnalysisVerbose = false
+                   CodeCoverageOperations = Disabled
+                   CommonBuildOnlyTargets = 
+                         PrepareForBuild;
+                         ResolveReferences;
+                       
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   CommonTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets
+                   CompileDependsOn = 
+                           
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                           _AfterCompileWinFXInternal
+                       
+                   CompileLicxFilesDependsOn = 
+                   CompileRdlFilesDependsOn = PrepareRdlFiles;RunRdlCompiler
+                   CompilerPath = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\redist\ia32\compiler
+                   CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+                   ComputeCompileInputsTargets = 
+                         
+                         ;
+                         ComputeMIDLGeneratedCompileInputs;
+                       ;
+                         ComputeCLInputPDBName;
+                         ComputeReferenceCLInput;
+                         WarnCompileDuplicatedFilename
+                       
+                   ComputeImpLibInputsTargets = 
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeRCGeneratedImpLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedImpLibInputs;
+                       ;
+                           ComputeImpLibInputsFromProject;
+                         
+                   ComputeIntermediateSatelliteAssembliesDependsOn = 
+                         CreateManifestResourceNames
+                       
+                   ComputeLibInputsTargets = 
+                         ComputeLibAdditionalOptions;
+                         
+                         
+                           
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLibInputs;
+                       ;
+                           ComputeLibInputsFromProject;
+                         ;
+                         ComputeReferenceLibInputs;
+                       
+                       
+                   ComputeLinkInputsTargets = 
+                         
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLinkInputs;
+                       ;
+                         ComputeManifestGeneratedLinkerInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLinkInputs;
+                       ;
+                           ComputeLinkInputsFromProject;
+                         ;
+                         ComputeReferenceLinkInputs;
+                       
+                   ComputeManifestInputsTargets = 
+                         ;
+                         ComputeManifestInputsTargets;
+                       
+                   COMPUTERNAME = ALEXANDERLAPTOP
+                   ComReferenceExecuteAsTool = false
+                   ComReferenceNoClassMembers = false
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   Configuration = Release
+                   ConfigurationName = Release
+                   ConfigurationType = Application
+                   ConsiderPlatformAsProcessorArchitecture = true
+                   ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc
+                   ContinueOnError = false
+                   CoreBuildDependsOn = 
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       
+                   CoreCleanDependsOn = 
+                   CoreCompileDependsOn = 
+                           DesignTimeXamlMarkupCompilation;
+                           
+                             DesignTimeMarkupCompilation;
+                             
+                         
+                       
+                   CoreCppCleanDependsOn = 
+                   CoreResGenDependsOn = 
+                   CppCleanDependsOn = 
+                         BeforeCppClean;
+                         ;
+                         CoreCppClean;
+                         AfterCppClean;
+                       ;PGInstrumentedClean
+                   CppCleanLogFile = FileFindBench.Build.CppClean.log
+                   CreateCustomManifestResourceNamesDependsOn = 
+                   CreateHardLinksForCopyAdditionalFilesIfPossible = false
+                   CreateManifestResourceNamesDependsOn = 
+                   CreateSatelliteAssembliesDependsOn = 
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       
+                   CRTDefinitionalFile = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCProjectDefault\Microsoft.AppX.VCFrameworkReferences.xml
+                   CrtSDKReferenceInclude = Microsoft.VCLibs, Version=12.0
+                   CrtSDKReferenceVersion = 12.0
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                   <ProjectConfiguration Project="{6e4a2f4c-ecbe-4f30-83b3-3dc4dcdafe0e}" AbsolutePath="C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj">Release|Win32</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.Common.props
+                   CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.Common.targets
+                   CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.Common.props
+                   CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.Common.targets
+                   CustomBuildAfterTargets = BscMake
+                   CustomBuildBeforeTargets = PostBuildEvent
+                   CustomBuildToolAfterTargets = PreBuildEvent
+                   CustomBuildToolBeforeTargets = Midl
+                   DebugCppRuntimeFilesPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\redist\Debug_NonRedist\x86
+                   DebuggerFlavor = WindowsLocalDebugger
+                   DebuggerLaunchApplication = true
+                   DebuggerRequireAuthentication = true
+                   DebuggerType = NativeOnly
+                   DebugSymbolsProjectOutputGroupDependsOn = 
+                   DefaultIntelPlatformToolset = Intel C++ Compiler XE 14.0
+                   DefaultLanguageSourceExtension = .cpp
+                   DefaultPlatformToolset = v120
+                   DefaultToolArchitecture = Native32Bit
+                   DefineExplicitDefaults = true
+                   DelayImplib = Delayimp.lib
+                   DelaySign = 
+                   DeploymentType = Installed
+                   DesignTimeIntermediateOutputPath = Release\InProcessTempFiles\
+                   DesignTimeResolveAssemblyReferencesDependsOn = 
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         ResolveReferences
+                       
+                   DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\
+                   diff = C:\wbin\diff.exe
+                   DocumentationProjectOutputGroupDependsOn = ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles
+                   DocumentLibraryDependencies = true
+                   dot = "C:\Python33\Lib\site-packages\graphviz\dot.py"
+                   DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
+                   EmbeddedWin32Manifest = 
+                   EmbedManifest = true
+                   EmbedManifestBy = MT
+                   EMET_Settings = Jul 30 2014 @ 18:41:05; PID: 0x5a0/1440; ReportingSettings:7; ExploitAction:1; DEP:0; SEHOP:0; NullPage:0; HeapSpray:0; EAF:0; EAF+:1; MandatoryASLR:0; BottomUpASLR:0; StackPivot:0; Caller:0; LoadLib:0; MemProt:0; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:0=15; ASR:0; nHk:6; 
+                   EnableManagedIncrementalBuild = false
+                   EntityDeployDependsOn = 
+                   EntityDeployIntermediateResourcePath = Release\edmxResourcesToEmbed\
+                   ExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;
+                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\WINDOWS\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\Program Files\SlikSvn\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap;
+                   ExpandSDKAllowedReferenceExtensions = 
+                         .winmd;
+                         .dll
+                       
+                   ExpandSDKReferencesDependsOn = 
+                         ResolveSDKReferences
+                       
+                   ExtensionSDKDirectoryRoot = C:\Program Files (x86)\Microsoft SDKs
+                   ExtensionSDKRegistryFormat = 
+                   ExtensionSDKUserDirectoryRoot = C:\Users\Alexander Riccio\AppData\Local\Microsoft SDKs
+                   ExtensionsToDeleteOnClean = *.cdf;*.cache;*.obj;*.ilk;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.manifest;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.tlb;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.pdb;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.bsc;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.ilk;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.intermediate.manifest;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.CodeAnalysisLog.xml;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.lastcodeanalysissucceeded
+                   FindInvalidProjectReferencesDependsOn = 
+                         GetReferenceTargetPlatformMonikers
+                       
+                   FP_NO_HOST_CHECK = NO
+                   Framework20Dir = @(_TargetFramework20DirectoryItem)
+                   Framework30Dir = @(_TargetFramework30DirectoryItem)
+                   Framework35Dir = @(_TargetFramework35DirectoryItem)
+                   Framework40Dir = @(_TargetFramework40DirectoryItem)
+                   FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkDir_110 = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   FrameworkRegistryBase = Software\Microsoft\.NETFramework
+                   FrameworkSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+                   FrameworkVersion = v4.5
+                   FullReferenceAssemblyNames = Full
+                   FxCompileAfterTargets = CustomBuild
+                   FxCompileBeforeTargets = Midl
+                   GenerateBindingRedirectsOutputType = true
+                   GenerateBuildInfoConfigFile = false
+                   GenerateClickOnceManifests = 
+                   GeneratedFileExtension = .g.cpp
+                   GenerateManifest = true
+                   GenerateManifestsDependsOn = 
+                         SetWin32ManifestProperties;
+                         GenerateApplicationManifest;
+                         GenerateDeploymentManifest
+                       
+                   GenerateTargetFrameworkAttribute = false
+                   GetCopyToOutputDirectoryItemsDependsOn = 
+                         AssignTargetPaths;
+                         _SplitProjectReferencesByFileExistence
+                       
+                   GetFrameworkPathsDependsOn = 
+                   GetReferenceAssemblyPathsDependsOn = 
+                           ;
+                           GetWinFXPath
+                       
+                   GetTargetPathDependsOn = 
+                   GetTargetPathWithTargetPlatformMonikerDependsOn = ; GetTargetPath
+                   GPURefDebuggerBreakOnAllThreads = GPURefBreakOncePerWarp
+                   grep = C:\wbin\grep.exe
+                   head = C:\wbin\head.exe
+                   HighEntropyVA = false
+                   HOMEDRIVE = C:
+                   HOMEPATH = \Users\Alexander Riccio
+                   HostInBrowser = false
+                   ICCompilerPlatform = IA32
+                   ICInstallDir = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\
+                   ICPlatform = IA32
+                   ICPP_COMPILER14 = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\
+                   IgnoreImportLibrary = false
+                   ImplicitlyExpandDesignTimeFacadesDependsOn = 
+                         ;
+                         GetReferenceAssemblyPaths
+                       
+                   ImportByWildcardAfterMicrosoftCommonTargets = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+                   IncludeServerNameInBuildInfo = false
+                   IncludeVersionInInteropName = true
+                   INSPECTOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Inspector XE 2013\
+                   InstrumentIntelTBB = false
+                   IntDir = Release\
+                   INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+                   INTEL_LICENSE_FILE = C:\Program Files (x86)\Common Files\Intel\Licenses
+                   IntelPlatform = ia32
+                   IntermediateOutputPath = Release\
+                   InteropOutputPath = Interop\
+                   IPG_Dir = C:\Program Files\Intel\Power Gadget 3.0
+                   IPG_Ver = 3.0
+                   IsApplication = true
+                   Keyword = Win32Proj
+                   LangID = 1033
+                   LangName = en-US
+                   Language = C++
+                   LastBuildState = Release\FileFindBench.tlog\FileFindBench.lastbuildstate
+                   LastBuildUnsuccessful = Release\FileFindBench.tlog\unsuccessfulbuild
+                   less = C:\wbin\less.exe
+                   LibraryPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;
+                   LibraryWPath = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral;
+                   LinkCompiled = true
+                   LinkIncremental = false
+                   LoadTimeSensitiveProperties = 
+                         ;
+                       
+                   LoadTimeSensitiveTargets = 
+                         ;
+                         XamlMarkupCompilePass1;
+                       
+                   LOCALAPPDATA = C:\Users\Alexander Riccio\AppData\Local
+                   LocalDebuggerAttach = False
+                   LocalDebuggerCommand = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe
+                   LocalDebuggerCommandArguments = C:\Users
+                   LocalDebuggerDebuggerType = Auto
+                   LocalDebuggerEnvironment = PATH=C:\Program Files (x86)\Intel\Composer XE 2013 SP1\redist\ia32\compiler;%PATH%
+                   
+                       
+                   LocalDebuggerMergeEnvironment = true
+                   LocalDebuggerSQLDebugging = False
+                   LocalDebuggerWorkingDirectory = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\
+                   LocalGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   LocalizationDirectivesToLocFile = None
+                   LOGONSERVER = \\ALEXANDERLAPTOP
+                   make = C:\wbin\make.exe
+                   ManagedAssembly = false
+                   ManagedIncrementalBuildProcessDependencyGraphAfterTarget = 
+                         ClCompile
+                       
+                   ManagedIncrementalBuildProcessDependencyGraphBeforeTarget = 
+                         ClCompile
+                       
+                   MarkupCompilePass2ForMainAssemblyDependsOn = 
+                                        GenerateTemporaryTargetAssembly;
+                                        MarkupCompilePass2;
+                                        AfterMarkupCompilePass2;
+                                        CleanupTemporaryTargetAssembly
+                          
+                   MaxTargetPath = 100
+                   MergedOutputCodeAnalysisFile = Release\vc.nativecodeanalysis.all.xml
+                   MetagenInputTarget = Link
+                   MetaGenTargets = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\\Microsoft.MetaGen.targets
+                   MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+                   MicrosoftCommonPropsHasBeenImported = true
+                   MidlYieldDuringToolExecution = true
+                   MpiDebuggerCleanupDeployment = True
+                   MpiDebuggerDebuggerType = Auto
+                   MpiDebuggerDeployCommonRuntime = True
+                   MpiDebuggerNetworkSecurityMode = AnyAddress
+                   MpiDebuggerSchedulerNode = localhost/1
+                   MpiDebuggerSchedulerTimeout = 5000
+                   MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets
+                   MSBuild_ExecutablePath = C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildAllProjects = ;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.targets;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj.user;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.props;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj.user;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Xaml.targets
+                   MSBuildAssemblyVersion = 12.0
+                   MSBuildBinPath = C:\Program Files (x86)\MSBuild\12.0\bin
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildFrameworkToolsPath = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsPath32 = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsRoot = C:\WINDOWS\Microsoft.NET\Framework\
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 8
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench
+                   MSBuildProjectDirectoryNoRoot = Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench
+                   MSBuildProjectExtension = .vcxproj
+                   MSBuildProjectFile = FileFindBench.vcxproj
+                   MSBuildProjectFullPath = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj
+                   MSBuildProjectName = FileFindBench
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\WINDOWS\SysWOW64
+                   MSBuildToolsPath = C:\Program Files (x86)\MSBuild\12.0\bin
+                   MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\12.0\bin\
+                   MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+                   MSBuildToolsVersion = 12.0
+                   MSBuildUserExtensionsPath = C:\Users\Alexander Riccio\AppData\Local\Microsoft\MSBuild
+                   MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\TeamTest\Microsoft.TeamTest.targets
+                   NativeCodeAnalysisTLogFile = Release\NativeCodeAnalysis.read.1.tlog
+                   NetFrameworkPropsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.props
+                   NetFrameworkTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets
+                   NUMBER_OF_PROCESSORS = 8
+                   OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration = true
+                   OS = Windows_NT
+                   OSVersion = 5.1.2600.0
+                   OutDir = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\
+                   OutDirWasSpecified = false
+                   OutputPath = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\
+                   OutputType = exe
+                   OverwriteReadOnlyFiles = false
+                   ParallelDebugEnvironment = Auto
+                   Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\Program Files\SlikSvn\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW
+                   PkgDefApplicationConfigFile = C:\Users\Alexander Riccio\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+                   Platform = Win32
+                   Platform_Actual = Win32
+                   PlatformArchitecture = 32
+                   PlatformName = Win32
+                   PlatformPropsFound = true
+                   PlatformShortName = x86
+                   PlatformTarget = x86
+                   PlatformTargetAsMSBuildArchitecture = x86
+                   PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+                   PlatformTargetsFound = true
+                   PlatformToolset = v120
+                   PlatformToolsetVersion = 120
+                   PostBuildEventDependsOn = 
+                   PostBuildEventUseInBuild = true
+                   PreBuildEventDependsOn = 
+                   PreBuildEventUseInBuild = true
+                   Prefer32Bit = false
+                   PreferredToolArchitecture = x86
+                   PreLinkEventUseInBuild = true
+                   PrepareForBuildDependsOn = PlatformPrepareForBuild;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables
+                   PrepareForRunDependsOn = 
+                         CopyFilesToOutputDirectory
+                       
+                   PrepareResourceNamesDependsOn = 
+                                       AssignWinFXEmbeddedResource;
+                                       
+                         AssignTargetPaths;
+                         SplitResourcesByCulture;
+                         CreateManifestResourceNames;
+                         CreateCustomManifestResourceNames
+                       
+                         
+                   PrepareResourcesDependsOn = 
+                         XamlMarkupCompilePass1;
+                         XamlMarkupCompilePass2;
+                         
+                                   MarkupCompilePass1;
+                                   AfterMarkupCompilePass1;
+                                   MarkupCompilePass2ForMainAssembly;
+                                   FileClassification;
+                                   MainResourcesGeneration;
+                                   
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       ;CompileRdlFiles
+                          
+                       
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 3c03
+                   ProcessorArchitecture = x86
+                   ProfileDirectory = 
+                   ProfileGuidedOptimization = Disabled
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   ProjectDesignTimeAssemblyResolutionSearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {RawFileName};
+                         C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\
+                       
+                   ProjectDir = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\
+                   ProjectEvaluationFingerprint = Release|Win32|C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\|
+                   ProjectExt = .vcxproj
+                   ProjectFileName = FileFindBench.vcxproj
+                   ProjectFlavor = Client
+                   ProjectGuid = {6E4A2F4C-ECBE-4F30-83B3-3DC4DCDAFE0E}
+                   ProjectName = FileFindBench
+                   ProjectPath = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+                   PUBLIC = C:\Users\Public
+                   PublishableProject = true
+                   PublishBuildDependsOn = 
+                               BuildOnlySettings;
+                               PrepareForBuild;
+                               ResolveReferences;
+                               PrepareResources;
+                               ResolveKeySource;
+                               PrepareResourcesForSatelliteAssemblies;
+                               GenerateSerializationAssemblies;
+                               CreateSatelliteAssemblies;
+                           
+                   PublishDependsOn = 
+                         SetGenerateManifests;
+                         Build;
+                         PublishOnly
+                       
+                   PublishDir = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\app.publish\
+                   PublishOnlyDependsOn = 
+                         SetGenerateManifests;
+                         PublishBuild;
+                         BeforePublish;
+                         GenerateManifests;
+                         CopyFilesToOutputDirectory;
+                         CleanPublishFolder;
+                         _CopyFilesToPublishFolder;
+                         _DeploymentGenerateBootstrapper;
+                         ResolveKeySource;
+                         _DeploymentSignClickOnceDeployment;
+                         AfterPublish
+                       
+                   PublishPipelineCollectFilesCore = 
+                               ;
+                               CollectFilesFromBuildInfoConfigFile;
+                           
+                   python = C:\Python33\python.exe
+                   python27 = C:\Python27\python.exe
+                   RebuildDependsOn = 
+                         _PrepareForRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       ;
+                       
+                   ReferencePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;
+                   RemoteDebuggerAttach = False
+                   RemoteDebuggerConnection = RemoteWithAuthentication
+                   RemoteDebuggerDebuggerType = Auto
+                   RemoteDebuggerServerName = ALEXANDERLAPTOP
+                   RemoteDebuggerSQLDebugging = False
+                   RemoteDebuggerWorkingDirectory = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\
+                   RemoteGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\ReportingServices\Microsoft.ReportingServices.targets
+                   ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+                   ResGenExecuteAsTool = false
+                   ResolveAssemblyReferencesDependsOn = _PrepareForReferenceResolution;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       
+                   ResolveReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         
+                         
+                         BeforeResolveReferences;
+                         AssignProjectConfiguration;
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         ResolveNativeReferences;
+                         ResolveAssemblyReferences;
+                         GenerateBindingRedirects;
+                         ResolveComReferences;
+                         AfterResolveReferences
+                       ;
+                         ImplicitlyExpandDesignTimeFacades
+                       ;
+                         ResolveTestReferences
+                       
+                   ResolveSDKReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         GetInstalledSDKLocations
+                       
+                   RootNamespace = FileFindBench
+                   RunAfterInstall = true
+                   RunCodeAnalysisDependsOn = ;ClCompile;RunMergeNativeCodeAnalysis
+                   RunCodeAnalysisInputs = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe
+                   RunDependsOn = 
+                   RunMergeNativeCodeAnalysisDependsOn = ClCompile
+                   RunNativeCodeAnalysisInputs = 
+                   SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+                   SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+                   SDKReferenceDirectoryRoot = C:\Users\Alexander Riccio\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+                   SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+                   sed = C:\wbin\sed.exe
+                   seq = C:\wbin\seq.exe
+                   SGenFilesOutputGroupDependsOn = 
+                   SGenShouldGenerateSerializer = true
+                   SGenUseKeep = false
+                   SGenUseProxyTypes = true
+                   ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+                   ShowAllFiles = true
+                   SkipCopyBuildProduct = true
+                   SkipCopyUnchangedFiles = true
+                   SolutionDir = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\
+                   SolutionExt = .sln
+                   SolutionFileName = FileFindBench.sln
+                   SolutionName = FileFindBench
+                   SolutionPath = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench.sln
+                   SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\atl;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\crt\src;
+                   split = C:\wbin\split.exe
+                   SQLDebugging = false
+                   SuiteVer = 14.0
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   tail = C:\wbin\tail.exe
+                   tar = C:\wbin\tar.exe
+                   TargetCulture = *
+                   TargetDeployManifestFileName = FileFindBench.application
+                   TargetDir = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\
+                   TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+                   TargetedRuntimeVersion = v4.0.30319
+                   TargetedSDKArchitecture = x86
+                   TargetedSDKConfiguration = Retail
+                   TargetExt = .exe
+                   TargetFileName = FileFindBench.exe
+                   TargetFrameworkAsMSBuildRuntime = CLR4
+                   TargetFrameworkIdentifier = .NETFramework
+                   TargetFrameworkMoniker = .NETFramework,Version=v4.0
+                   TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\Alexander Riccio\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+                   TargetFrameworkMonikerDisplayName = .NET Framework 4
+                   TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+                   TargetFrameworkVersion = v4.0
+                   TargetName = FileFindBench
+                   TargetPath = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe
+                   TargetPlatformDisplayName = Windows 7.0
+                   TargetPlatformIdentifier = Windows
+                   TargetPlatformMoniker = Windows,Version=7.0
+                   TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+                   TargetPlatformSdkPath = 
+                   TargetPlatformVersion = 7.0
+                   TargetPlatformVersionOptions = 7.0;8.0
+                   TargetPlatformWinMDLocation = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   TargetRuntime = Managed
+                   TaskKeyToken = 31bf3856ad364e35
+                   TaskVersion = 4.0.0.0
+                   TEMP = C:\Users\ALEXAN~1\AppData\Local\Temp
+                   TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+                   test = C:\wbin\test.exe
+                   TFS_DIR = C:\Program Files\Protector Suite\
+                   TLogLocation = Release\FileFindBench.tlog\
+                   TMP = C:\Users\ALEXAN~1\AppData\Local\Temp
+                   TMPDIR = C:\Windows\Temp
+                   ToolsetPropsFound = true
+                   ToolsetTargetsFound = true
+                   tr = C:\wbin\tr.exe
+                   TrackFileAccess = true
+                   uname = C:\wbin\uname.exe
+                   unexpand = C:\wbin\unexpand.exe
+                   UnmanagedRegistrationDependsOn = 
+                   UnmanagedUnregistrationDependsOn = 
+                   unrar = C:\wbin\unrar.exe
+                   unzip = C:\wbin\unzip.exe
+                   UpgradeSubsetToProfile = true
+                   UseCommonOutputDirectory = false
+                   UseDebugLibraries = false
+                   UseIntelIPP = false
+                   UseIntelMKL = No
+                   UseIntelTBB = false
+                   UseLegacyManagedDebugger = true
+                   UseOfATL = false
+                   UseOfMfc = Dynamic
+                   USERDOMAIN = AlexanderLaptop
+                   USERDOMAIN_ROAMINGPROFILE = AlexanderLaptop
+                   USERNAME = AlexanderRiccio
+                   USERPROFILE = C:\Users\Alexander Riccio
+                   UserRootDir = C:\Users\Alexander Riccio\AppData\Local\Microsoft\MSBuild\v4.0
+                   UseSourcePath = true
+                   VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+                   VC_ExecutablePath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_ExecutablePath_x64_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64_arm
+                   VC_ExecutablePath_x64_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64
+                   VC_ExecutablePath_x64_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64_x86
+                   VC_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_ExecutablePath_x86_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm
+                   VC_ExecutablePath_x86_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64
+                   VC_ExecutablePath_x86_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include
+                   VC_LibraryPath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\ARM;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\ARM
+                   VC_LibraryPath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\amd64
+                   VC_LibraryPath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib
+                   VC_ReferencesPath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\ARM;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\ARM
+                   VC_ReferencesPath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64
+                   VC_ReferencesPath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib
+                   VC_SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\atl;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\crt\src
+                   VCInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+                   VCInstallDir_120 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+                   VCRedistPaths = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\redist\ia32\compiler;
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCTargetsPathEffective = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCToolArchitecture = Native32Bit
+                   Version = 1.0.0.0
+                   VisualStudioDir = C:\Users\Alexander Riccio\Documents\Visual Studio 2013
+                   VisualStudioEdition = Microsoft Visual Studio Professional 2013
+                   VisualStudioVersion = 12.0
+                   VS_ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;
+                   VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+                   VS90COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+                   VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+                   VSInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
+                   VSInstallDir_120 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
+                   VSLANG = 1033
+                   VSVersion = $(VisualStudoVersion)
+                   VTUNE_AMPLIFIER_XE_2013_DIR = C:\Program Files (x86)\Intel\VTune Amplifier XE 2013\
+                   wc = C:\wbin\wc.exe
+                   WebBrowserDebuggerDebuggerType = Auto
+                   WebReference_EnableLegacyEventingModel = false
+                   WebReference_EnableProperties = true
+                   WebReference_EnableSQLTypes = true
+                   WebServiceDebuggerDebuggerType = Auto
+                   WebServiceDebuggerSQLDebugging = False
+                   wget = C:\wbin\wget.exe
+                   WholeProgramOptimization = true
+                   WholeProgramOptimizationAvailabilityInstrument = true
+                   WholeProgramOptimizationAvailabilityOptimize = true
+                   WholeProgramOptimizationAvailabilityTrue = true
+                   WholeProgramOptimizationAvailabilityUpdate = true
+                   windir = C:\WINDOWS
+                   WindowsAppContainer = false
+                   WindowsSDK_ExecutablePath = C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+                   WindowsSDK_ExecutablePath_arm = C:\Program Files (x86)\Windows Kits\8.1\bin\arm;
+                   WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Windows Kits\8.1\bin\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64
+                   WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+                   WindowsSDK_IncludePath = C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;
+                   WindowsSDK_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\arm;
+                   WindowsSDK_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64;
+                   WindowsSDK_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;
+                   WindowsSDK_MetadataPath = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSDKDesktopARMSupport = true
+                   WindowsSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir_80 = C:\Program Files (x86)\Windows Kits\8.0\
+                   WindowsSdkDir_81 = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir_81A = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+                   WindowsSDKToolArchitecture = Native32Bit
+                   WinMDAssembly = false
+                   WMSJSProject = WJProject
+                   WMSJSProjectDirectory = JavaScript
+                   XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   XamlBuildTaskLocation = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   XamlBuildTaskPath = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\
+                   XamlGenCodeFileNames = FileFindBench.vcxproj.XamlGeneratedCodeFileListAbsolute.txt
+                   XamlGenMarkupFileNames = FileFindBench.vcxproj.XamlGeneratedXamlFileListAbsolute.txt
+                   XamlPass2FlagFile = FileFindBench.vcxproj.XamlPass2Flag.txt
+                   XamlRequiresCompilationPass2 = false
+                   XamlTemporaryAssemblyName = FileFindBench
+                   xargs = C:\wbin\xargs.exe
+                   yes = C:\wbin\yes.exe
+                   YieldDuringToolExecution = true
+                   zcat = C:\wbin\zcat.exe
+
+21:59:24.062     1>Building with tools version "12.0".
+21:59:24.062     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Task Parameter:Text=Configuration=Release (TaskId:2)
+                     Task Parameter:Importance=Low (TaskId:2)
+                     Configuration=Release (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Task Parameter:Text=Platform=Win32 (TaskId:3)
+                     Task Parameter:Importance=Low (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\' != '' and !HasTrailingSlash('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
+21:59:24.062     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "FileFindBench.vcxproj".: (TargetId:2)
+21:59:24.062     1>Target "_PrepareForClean: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:4)
+                     Task Parameter:Files=Release\FileFindBench.tlog\FileFindBench.lastbuildstate (TaskId:4)
+                     Deleting file "Release\FileFindBench.tlog\FileFindBench.lastbuildstate". (TaskId:4)
+                   Done executing task "Delete". (TaskId:4)
+21:59:24.062     1>Done building target "_PrepareForClean" in project "FileFindBench.vcxproj".: (TargetId:3)
+21:59:24.062     1>Target "BeforeClean: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+21:59:24.062     1>Done building target "BeforeClean" in project "FileFindBench.vcxproj".: (TargetId:4)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\FileFindBench.vcxproj.UnmanagedRegistration.cache')).
+21:59:24.062     1>Target "CoreClean: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:5)
+                     Task Parameter:
+                         Files=
+                             Release\\TempCA\FileFindBench.pdb
+                             Release\\TempCA\FileFindBench.exe (TaskId:5)
+                     Task Parameter:TreatErrorsAsWarnings=True (TaskId:5)
+                     File "Release\\TempCA\FileFindBench.pdb" doesn't exist. Skipping. (TaskId:5)
+                     File "Release\\TempCA\FileFindBench.exe" doesn't exist. Skipping. (TaskId:5)
+                   Done executing task "Delete". (TaskId:5)
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:6)
+                     Task Parameter:File=Release\FileFindBench.vcxproj.FileListAbsolute.txt (TaskId:6)
+                   Done executing task "ReadLinesFromFile". (TaskId:6)
+                   Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "FindUnderPath" (TaskId:7)
+                     Task Parameter:Path=C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\ (TaskId:7)
+                     Comparison path is "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\". (TaskId:7)
+                   Done executing task "FindUnderPath". (TaskId:7)
+                   Task "FindUnderPath" (TaskId:8)
+                     Task Parameter:Path=Release\ (TaskId:8)
+                     Comparison path is "Release\". (TaskId:8)
+                   Done executing task "FindUnderPath". (TaskId:8)
+                   Task "Delete" (TaskId:9)
+                     Task Parameter:TreatErrorsAsWarnings=True (TaskId:9)
+                   Done executing task "Delete". (TaskId:9)
+                   Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RemoveDuplicates" (TaskId:10)
+                   Done executing task "RemoveDuplicates". (TaskId:10)
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:11)
+                     Task Parameter:Directories=Release\ (TaskId:11)
+                   Done executing task "MakeDir". (TaskId:11)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:12)
+                     Task Parameter:File=Release\FileFindBench.vcxproj.FileListAbsolute.txt (TaskId:12)
+                     Task Parameter:Overwrite=True (TaskId:12)
+                   Done executing task "WriteLinesToFile". (TaskId:12)
+21:59:24.078     1>Done building target "CoreClean" in project "FileFindBench.vcxproj".: (TargetId:5)
+21:59:24.078     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:13)
+                     Task Parameter:CurrentProject=C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj (TaskId:13)
+                     Task Parameter:CurrentProjectConfiguration=Release (TaskId:13)
+                     Task Parameter:CurrentProjectPlatform=Win32 (TaskId:13)
+                     Task Parameter:OutputType=exe (TaskId:13)
+                     Task Parameter:ResolveConfigurationPlatformUsingMappings=False (TaskId:13)
+                     Task Parameter:SolutionConfigurationContents=<SolutionConfiguration>
+                     <ProjectConfiguration Project="{6e4a2f4c-ecbe-4f30-83b3-3dc4dcdafe0e}" AbsolutePath="C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj">Release|Win32</ProjectConfiguration>
+                     </SolutionConfiguration> (TaskId:13)
+                     Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:13)
+                     Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:13)
+                   Done executing task "AssignProjectConfiguration". (TaskId:13)
+21:59:24.078     1>Done building target "AssignProjectConfiguration" in project "FileFindBench.vcxproj".: (TargetId:6)
+21:59:24.078     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+21:59:24.078     1>Done building target "_SplitProjectReferencesByFileExistence" in project "FileFindBench.vcxproj".: (TargetId:7)
+21:59:24.078     1>Target "CleanReferencedProjects: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+21:59:24.078     1>Done building target "CleanReferencedProjects" in project "FileFindBench.vcxproj".: (TargetId:8)
+21:59:24.078     1>Target "CleanPublishFolder: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\app.publish\'=='C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\app.publish\' and Exists('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\app.publish\')).
+21:59:24.078     1>Done building target "CleanPublishFolder" in project "FileFindBench.vcxproj".: (TargetId:9)
+21:59:24.078     1>Target "AfterClean: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+21:59:24.078     1>Done building target "AfterClean" in project "FileFindBench.vcxproj".: (TargetId:10)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+21:59:24.078     1>Target "BeforeCppClean: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+21:59:24.078     1>Done building target "BeforeCppClean" in project "FileFindBench.vcxproj".: (TargetId:11)
+21:59:24.078     1>Target "CoreCppClean: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:14)
+                     Task Parameter:Directories=Release\ (TaskId:14)
+                   Done executing task "MakeDir". (TaskId:14)
+                   Using "CppClean" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+                   Task "CppClean" (TaskId:15)
+                     Task Parameter:FoldersToClean=Release\;Release\FileFindBench.tlog\ (TaskId:15)
+                     Task Parameter:FilesExcludedFromClean=FileFindBench.Build.CppClean.log (TaskId:15)
+                     Task Parameter:DoDelete=True (TaskId:15)
+                     Task Parameter:FilePatternsToDeleteOnClean=*.cdf;*.cache;*.obj;*.ilk;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.manifest;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.tlb;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.pdb;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.bsc;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.ilk;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.intermediate.manifest;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.CodeAnalysisLog.xml;C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\Release\FileFindBench.exe.lastcodeanalysissucceeded (TaskId:15)
+                   Done executing task "CppClean". (TaskId:15)
+                   Task "WriteLinesToFile" (TaskId:16)
+                     Task Parameter:File=Release\FileFindBench.Build.CppClean.log (TaskId:16)
+                     Task Parameter:
+                         Lines=
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.pch
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\vc120.pdb
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\stdafx.obj
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.obj
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\release\filefindbench.exe
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\release\filefindbench.pdb
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.res
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\cl.command.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\cl.read.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\cl.write.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\link.command.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\link.read.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\link.write.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\rc.command.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\rc.read.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\release\filefindbench.tlog\rc.write.1.tlog (TaskId:16)
+                     Task Parameter:Overwrite=True (TaskId:16)
+                   Done executing task "WriteLinesToFile". (TaskId:16)
+21:59:24.093     1>Done building target "CoreCppClean" in project "FileFindBench.vcxproj".: (TargetId:12)
+21:59:24.093     1>Target "AfterCppClean: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+21:59:24.093     1>Done building target "AfterCppClean" in project "FileFindBench.vcxproj".: (TargetId:13)
+21:59:24.093     1>Target "PGInstrumentedClean: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:17)
+                   Done executing task "Delete". (TaskId:17)
+21:59:24.093     1>Done building target "PGInstrumentedClean" in project "FileFindBench.vcxproj".: (TargetId:14)
+21:59:24.093     1>Target "CppClean: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+21:59:24.093     1>Done building target "CppClean" in project "FileFindBench.vcxproj".: (TargetId:15)
+21:59:24.093     1>Target "Clean: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (entry point):
+21:59:24.093     1>Done building target "Clean" in project "FileFindBench.vcxproj".: (TargetId:16)
+21:59:24.093     1>Done Building Project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (Clean target(s)).
+
+Project Performance Summary:
+       31 ms  C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj   1 calls
+                 31 ms  Clean                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterClean                                 1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  CppClean                                   1 calls
+       16 ms  CoreClean                                  1 calls
+       16 ms  CoreCppClean                               1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    2 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  FindUnderPath                              2 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  MakeDir                                    2 calls
+        0 ms  Delete                                     4 calls
+        0 ms  WriteLinesToFile                           2 calls
+       16 ms  CppClean                                   1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:00.03

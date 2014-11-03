@@ -1,0 +1,120 @@
+﻿deleted huge files, ASYNC IS WORKING!
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   FileFindBench/FileFindBench.sdf
+#	modified:   FileFindBench/FileFindBench.v12.suo
+#	modified:   FileFindBench/FileFindBench/FileFindBench.cpp
+#	deleted:    FileFindBench/FileFindBench/My Amplifier XE Results - FileFindBench/My Amplifier XE Results - FileFindBench.amplxeproj
+#	deleted:    FileFindBench/FileFindBench/My Inspector XE Results - FileFindBench/My Inspector XE Results - FileFindBench.inspxeproj
+#	modified:   FileFindBench/FileFindBench/stdafx.h
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.Build.CppClean.log
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.log
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.obj
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.res
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/FileFindBench.lastbuildstate
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent-intelremotemonagent2.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent-intelremotemonagent2.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent.read.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent.write.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver.read.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver.read.7.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver.write.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-intelremotemonserver.write.7.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-mcpcom.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl-mcpcom.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/icl.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/rc.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/rc.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/rc.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/xilink-mcpcom.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/xilink-mcpcom.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/xilink.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/xilink.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/FileFindBench.tlog/xilink.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/NativeCodeAnalysis.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/stdafx.obj
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_Release/vc.nativecodeanalysis.all.xml
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.log
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.obj
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.res
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/FileFindBench.lastbuildstate
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent-intelremotemonagent2.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent-intelremotemonagent2.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent.read.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver-intelremotemonagent.write.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.read.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.read.5.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.read.9.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.write.2.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.write.5.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-intelremotemonserver.write.9.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-mcpcom.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl-mcpcom.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/icl.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/rc.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/rc.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/rc.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/xilink-mcpcom.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/xilink-mcpcom.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/xilink.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/xilink.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/FileFindBench.tlog/xilink.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/NativeCodeAnalysis.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/stdafx.obj
+#	deleted:    FileFindBench/FileFindBench/x64/Intel_SSA/vc.nativecodeanalysis.all.xml
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.Build.CppClean.log
+#	modified:   FileFindBench/FileFindBench/x64/Release/FileFindBench.log
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.obj
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.pch
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.pchast
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.res
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/CL.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/CL.read.7.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/CL.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/FileFindBench.lastbuildstate
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/cl.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/link.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/link.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/link.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/rc.command.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/rc.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/FileFindBench.tlog/rc.write.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/NativeCodeAnalysis.read.1.tlog
+#	deleted:    FileFindBench/FileFindBench/x64/Release/filefindbench.nativecodeanalysis.xml
+#	deleted:    FileFindBench/FileFindBench/x64/Release/stdafx.nativecodeanalysis.xml
+#	deleted:    FileFindBench/FileFindBench/x64/Release/stdafx.obj
+#	deleted:    FileFindBench/FileFindBench/x64/Release/vc.nativecodeanalysis.all.xml
+#	deleted:    FileFindBench/FileFindBench/x64/Release/vc120.pdb
+#	deleted:    FileFindBench/FileFindBench140805(2).vsp
+#	deleted:    FileFindBench/FileFindBench140805(3).vsp
+#	deleted:    FileFindBench/FileFindBench140805(4).vsp
+#	deleted:    FileFindBench/FileFindBench140805.vspx
+#	deleted:    FileFindBench/ipch/filefindbench-14a7b227/filefindbench-17654cc0.ipch
+#	deleted:    FileFindBench/ipch/filefindbench-14a7b227/filefindbench-8cfed426.ipch
+#	deleted:    FileFindBench/ipch/filefindbench-14a7b227/filefindbench-abe0650d.ipch
+#	deleted:    FileFindBench/ipch/filefindbench-14a7b227/filefindbench-b67d7085.ipch
+#	deleted:    FileFindBench/ipch/filefindbench-14a7b227/filefindbench-e76e1487.ipch
+#	deleted:    FileFindBench/ipch/filefindbench-14a7b227/filefindbench-ecca98b.ipch
+#	deleted:    FileFindBench/ipch/filefindbench-a9d4dbaf/filefindbench-b67d7085.ipch
+#	deleted:    FileFindBench/x64/Intel_Release/FileFindBench.exe.lastcodeanalysissucceeded
+#	deleted:    FileFindBench/x64/Intel_SSA/FileFindBench.exe.lastcodeanalysissucceeded
+#	deleted:    FileFindBench/x64/Release/FileFindBench.exe
+#	deleted:    FileFindBench/x64/Release/FileFindBench.exe.lastcodeanalysissucceeded
+#	deleted:    FileFindBench/x64/Release/FileFindBench.pdb
+#
+# Untracked files:
+#	FileFindBench/FileFindBench.opensdf
+#	FileFindBench/ipch/
+#
+

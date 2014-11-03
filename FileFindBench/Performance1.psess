@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VSPerformanceSession Version="1.00">
+  <Options>
+    <Solution>FileFindBench.sln</Solution>
+    <CollectionMethod>Instrumentation</CollectionMethod>
+    <AllocationMethod>None</AllocationMethod>
+    <AddReport>true</AddReport>
+    <ResourceBasedAnalysisSelected>true</ResourceBasedAnalysisSelected>
+    <UniqueReport>Timestamp</UniqueReport>
+    <SamplingMethod>Cycles</SamplingMethod>
+    <CycleCount>10000000</CycleCount>
+    <PageFaultCount>10</PageFaultCount>
+    <SysCallCount>10</SysCallCount>
+    <SamplingCounter Name="" ReloadValue="00000000000f4240" DisplayName="" />
+    <RelocateBinaries>true</RelocateBinaries>
+    <BinaryLocation>INSTRUMENTED</BinaryLocation>
+    <AdditionalArgruments>
+    </AdditionalArgruments>
+    <HardwareCounters EnableHWCounters="false">
+      <HardwareCounter Name="L2Misses" ReloadValue="00000000000003e8" DisplayName="Last Level Cache Misses" />
+      <HardwareCounter Name="HardwareInterruptsReceived" ReloadValue="00000000000186a0" DisplayName="HW Interrupts Received" />
+      <HardwareCounter Name="L2Misses" ReloadValue="00000000000003e8" DisplayName="Last Level Cache Misses" />
+      <HardwareCounter Name="HardwareInterruptsReceived" ReloadValue="00000000000186a0" DisplayName="HW Interrupts Received" />
+    </HardwareCounters>
+    <EtwSettings>
+      <Provider ControlGuid="06b94d9a-b15e-456e-a4ef-37c984a2cb4b" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="1fbecc45-c060-4e7c-8a0e-0dbd6116181b" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="3a2a4e84-4c21-4981-ae10-3fda0d9b0f83" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="9e814aad-3204-11d2-9a82-006008a86939" Enabled="false" Flags="00000000" Level="0" />
+      <Provider ControlGuid="a1c2040e-8840-4c31-ba11-9871031a19ea" Enabled="false" Flags="000000fe" Level="5" />
+      <Provider ControlGuid="aff081fe-0247-4275-9c4e-021f3dc1da35" Enabled="false" Flags="ffffffff" Level="5" />
+      <Provider ControlGuid="e13c0d23-ccbc-4e12-931b-d9cc2eee27e4" Enabled="false" Flags="7fffffff" Level="5" />
+    </EtwSettings>
+    <PdhSettings>
+      <PdhCountersEnabled>false</PdhCountersEnabled>
+      <PdhCountersRate>500</PdhCountersRate>
+      <PdhCounters>
+        <PdhCounter>\Cache\Data Map Hits %</PdhCounter>
+        <PdhCounter>\Memory\Cache Bytes</PdhCounter>
+        <PdhCounter>\PhysicalDisk(_Total)\Avg. Disk Queue Length</PdhCounter>
+        <PdhCounter>\System\Context Switches/sec</PdhCounter>
+        <PdhCounter>\System\File Control Operations/sec</PdhCounter>
+        <PdhCounter>\System\File Data Operations/sec</PdhCounter>
+        <PdhCounter>\System\System Calls/sec</PdhCounter>
+      </PdhCounters>
+    </PdhSettings>
+  </Options>
+  <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
+  <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+  <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+  <PreinstrumentEvent>
+    <InstrEventProgram>
+    </InstrEventProgram>
+    <InstrEventArguments>
+    </InstrEventArguments>
+    <InstrEventDescription>
+    </InstrEventDescription>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PreinstrumentEvent>
+  <PostinstrumentEvent>
+    <InstrEventProgram>
+    </InstrEventProgram>
+    <InstrEventArguments>
+    </InstrEventArguments>
+    <InstrEventDescription>
+    </InstrEventDescription>
+    <InstrEventExclude>false</InstrEventExclude>
+  </PostinstrumentEvent>
+  <Binaries>
+    <ProjBinary>
+      <Path>x64\Release\FileFindBench.exe</Path>
+      <ArgumentTimestamp>08/05/2014 17:29:38</ArgumentTimestamp>
+      <Instrument>true</Instrument>
+      <Sample>true</Sample>
+      <ExternalWebsite>false</ExternalWebsite>
+      <InteractionProfilingEnabled>false</InteractionProfilingEnabled>
+      <IsLocalJavascript>false</IsLocalJavascript>
+      <IsWindowsStoreApp>false</IsWindowsStoreApp>
+      <IsWWA>false</IsWWA>
+      <LaunchProject>false</LaunchProject>
+      <OverrideProjectSettings>true</OverrideProjectSettings>
+      <LaunchMethod>Executable</LaunchMethod>
+      <ExecutablePath>x64\Release\FileFindBench.exe</ExecutablePath>
+      <StartupDirectory>FileFindBench\</StartupDirectory>
+      <Arguments>C:\</Arguments>
+      <NetAppHost>IIS</NetAppHost>
+      <NetBrowser>InternetExplorer</NetBrowser>
+      <ExcludeSmallFuncs>false</ExcludeSmallFuncs>
+      <JScriptProfilingEnabled>false</JScriptProfilingEnabled>
+      <PreinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PreinstrumentEvent>
+      <PostinstrumentEvent>
+        <InstrEventExclude>false</InstrEventExclude>
+      </PostinstrumentEvent>
+      <ProjRef>{6E4A2F4C-ECBE-4F30-83B3-3DC4DCDAFE0E}|FileFindBench\FileFindBench.vcxproj</ProjRef>
+      <ProjPath>FileFindBench\FileFindBench.vcxproj</ProjPath>
+      <ProjName>FileFindBench</ProjName>
+    </ProjBinary>
+  </Binaries>
+  <Reports>
+    <Report>
+      <Path>FileFindBench140805.vsp</Path>
+    </Report>
+    <Report>
+      <Path>FileFindBench140805(1).vsp</Path>
+    </Report>
+    <Report>
+      <Path>FileFindBench140805(2).vsp</Path>
+    </Report>
+    <Report>
+      <Path>FileFindBench140805(3).vsp</Path>
+    </Report>
+    <Report>
+      <Path>FileFindBench140805(4).vsp</Path>
+    </Report>
+  </Reports>
+  <Launches>
+    <ProjBinary>
+      <Path>:PB:{6E4A2F4C-ECBE-4F30-83B3-3DC4DCDAFE0E}|FileFindBench\FileFindBench.vcxproj</Path>
+    </ProjBinary>
+  </Launches>
+</VSPerformanceSession>
