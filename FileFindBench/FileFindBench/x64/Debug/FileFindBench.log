@@ -1,7 +1,5 @@
-﻿Build started 10/3/2014 9:59:08 PM.
+﻿Build started 12/18/2014 12:18:18 PM.
 Environment at start of build:
-ADVISOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Advisor XE 2013\
-ADVIXE_LANG = en
 ALLUSERSPROFILE = C:\ProgramData
 AMPLXE_LANG = en
 APPDATA = C:\Users\Alexander Riccio\AppData\Roaming
@@ -15,14 +13,16 @@ ComSpec = C:\WINDOWS\system32\cmd.exe
 diff = C:\wbin\diff.exe
 dot = "C:\Python33\Lib\site-packages\graphviz\dot.py"
 DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
-EMET_Settings = Jul 30 2014 @ 18:41:05; PID: 0x5a0/1440; ReportingSettings:7; ExploitAction:1; DEP:0; SEHOP:0; NullPage:0; HeapSpray:0; EAF:0; EAF+:1; MandatoryASLR:0; BottomUpASLR:0; StackPivot:0; Caller:0; LoadLib:0; MemProt:0; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:0=15; ASR:0; nHk:6; 
+EMET_CE = I:-1;S:0;F:0;E:0;V:Nov  9 2014 15:48:33
+EMET_Settings = Nov  9 2014 @ 15:48:47; PID: 0x9bac/39852; ReportingSettings:7; ExploitAction:1; DEP:1; SEHOP:2; NullPage:1; HeapSpray:1; EAF:1; EAF+:1; MandatoryASLR:1; BottomUpASLR:1; StackPivot:1; Caller:0; LoadLib:1; MemProt:1; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:1=2/15; ASR:0; nHk:54; 
 FP_NO_HOST_CHECK = NO
 grep = C:\wbin\grep.exe
 head = C:\wbin\head.exe
 HOMEDRIVE = C:
 HOMEPATH = \Users\Alexander Riccio
 ICPP_COMPILER14 = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\
-INSPECTOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Inspector XE 2013\
+ICPP_COMPILER15 = C:\Program Files (x86)\Intel\Composer XE 2015\
+INSPECTOR_XE_2015_DIR = C:\Program Files (x86)\Intel\Inspector XE 2015\
 INSPXE_LANG = en
 INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
 INTEL_LICENSE_FILE = C:\Program Files (x86)\Common Files\Intel\Licenses
@@ -36,8 +36,10 @@ MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries
 MSBuildLoadMicrosoftTargetsReadOnly = true
 NUMBER_OF_PROCESSORS = 8
 OS = Windows_NT
-Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\Program Files\SlikSvn\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW
+pex_clientid = pex39852_1
+pex_server_channel = pex39852
 pip-2.7 = C:\Python27\Scripts\pip-script.py
 PkgDefApplicationConfigFile = C:\Users\Alexander Riccio\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
 printenv.exe = C:\wbin\printenv.exe
@@ -56,6 +58,7 @@ python = C:\Python33\python.exe
 python27 = C:\Python27\python.exe
 sed = C:\wbin\sed.exe
 seq = C:\wbin\seq.exe
+SESSIONNAME = Console
 split = C:\wbin\split.exe
 SystemDrive = C:
 SystemRoot = C:\WINDOWS
@@ -85,7 +88,7 @@ VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Too
 VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
 VS90COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
 VSLANG = 1033
-VTUNE_AMPLIFIER_XE_2013_DIR = C:\Program Files (x86)\Intel\VTune Amplifier XE 2013\
+VTUNE_AMPLIFIER_XE_2015_DIR = C:\Program Files (x86)\Intel\VTune Amplifier XE 2015\
 wc = C:\wbin\wc.exe
 wget = C:\wbin\wget.exe
 windir = C:\WINDOWS
@@ -93,12 +96,10 @@ xargs = C:\wbin\xargs.exe
 yes = C:\wbin\yes.exe
 zcat = C:\wbin\zcat.exe
 _NT_DEBUGGER_EXTENSION_PATH = "C:\Users\Alexander Riccio\WinDBGExtensions"
-_NT_SYMBOL_PATH = symsrv*symsrv.dll*srv*C:\localsymbols*http://msdl.microsoft.com/download/symbols*http://chromium-browser-symsrv.commondatastorage.googleapis.com
-__COMPAT_LAYER = Installer
+_NT_SYMBOL_PATH = srv*C:\Symbols*http://msdl.microsoft.com/download/symbols
 
-21:59:08.562     1>Project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" on node 2 (Clean target(s)).
-21:59:08.562     1>Initial Properties:
-                   __COMPAT_LAYER = Installer
+12:18:18.896     1>Project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" on node 2 (Clean target(s)).
+12:18:18.896     1>Initial Properties:
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
                            MergeLocalizationDirectives;
@@ -142,7 +143,7 @@ __COMPAT_LAYER = Installer
                          ComputeManifestGeneratedLinkerInputs;
                        
                    _NT_DEBUGGER_EXTENSION_PATH = "C:\Users\Alexander Riccio\WinDBGExtensions"
-                   _NT_SYMBOL_PATH = symsrv*symsrv.dll*srv*C:\localsymbols*http://msdl.microsoft.com/download/symbols*http://chromium-browser-symsrv.commondatastorage.googleapis.com
+                   _NT_SYMBOL_PATH = srv*C:\Symbols*http://msdl.microsoft.com/download/symbols
                    _NT_TARGET_VERSION = 0x603
                    _NT_TARGET_VERSION_LONGHORN = 0x0600
                    _NT_TARGET_VERSION_NT4 = 0x0400
@@ -229,7 +230,6 @@ __COMPAT_LAYER = Installer
                    AddAppConfigToBuildOutputs = true
                    AddBuildInfoToAssembly = false
                    AdditionalExplicitAssemblyReferences = System.Core;
-                   ADVISOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Advisor XE 2013\
                    AfterBuildCompileTargets = 
                          ;
                          AfterBuildCompileEvent;
@@ -669,12 +669,13 @@ __COMPAT_LAYER = Installer
                    EmbeddedWin32Manifest = 
                    EmbedManifest = true
                    EmbedManifestBy = MT
-                   EMET_Settings = Jul 30 2014 @ 18:41:05; PID: 0x5a0/1440; ReportingSettings:7; ExploitAction:1; DEP:0; SEHOP:0; NullPage:0; HeapSpray:0; EAF:0; EAF+:1; MandatoryASLR:0; BottomUpASLR:0; StackPivot:0; Caller:0; LoadLib:0; MemProt:0; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:0=15; ASR:0; nHk:6; 
+                   EMET_CE = I:-1;S:0;F:0;E:0;V:Nov  9 2014 15:48:33
+                   EMET_Settings = Nov  9 2014 @ 15:48:47; PID: 0x9bac/39852; ReportingSettings:7; ExploitAction:1; DEP:1; SEHOP:2; NullPage:1; HeapSpray:1; EAF:1; EAF+:1; MandatoryASLR:1; BottomUpASLR:1; StackPivot:1; Caller:0; LoadLib:1; MemProt:1; DeepHooks:1; BannedFunctions:1; AntiDetours:1; SimExecFlow:1=2/15; ASR:0; nHk:54; 
                    EnableManagedIncrementalBuild = false
                    EntityDeployDependsOn = 
                    EntityDeployIntermediateResourcePath = x64\Debug\edmxResourcesToEmbed\
                    ExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\amd64;
-                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\Program Files\SlikSvn\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap;
+                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap;
                    ExpandSDKAllowedReferenceExtensions = 
                          .winmd;
                          .dll
@@ -737,6 +738,7 @@ __COMPAT_LAYER = Installer
                    ICInstallDir = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\
                    ICPlatform = EM64T
                    ICPP_COMPILER14 = C:\Program Files (x86)\Intel\Composer XE 2013 SP1\
+                   ICPP_COMPILER15 = C:\Program Files (x86)\Intel\Composer XE 2015\
                    IgnoreImportLibrary = false
                    ImplicitlyExpandDesignTimeFacadesDependsOn = 
                          ;
@@ -757,7 +759,7 @@ __COMPAT_LAYER = Installer
                    IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
                    IncludeServerNameInBuildInfo = false
                    IncludeVersionInInteropName = true
-                   INSPECTOR_XE_2013_DIR = C:\Program Files (x86)\Intel\Inspector XE 2013\
+                   INSPECTOR_XE_2015_DIR = C:\Program Files (x86)\Intel\Inspector XE 2015\
                    InstrumentIntelTBB = false
                    IntDir = x64\Debug\
                    INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
@@ -851,7 +853,7 @@ __COMPAT_LAYER = Installer
                    MSBuildProjectFullPath = C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj
                    MSBuildProjectName = FileFindBench
                    MSBuildRuntimeVersion = 4.0.30319
-                   MSBuildStartupDirectory = C:\WINDOWS\SysWOW64
+                   MSBuildStartupDirectory = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE
                    MSBuildToolsPath = C:\Program Files (x86)\MSBuild\12.0\bin
                    MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\12.0\bin\
                    MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
@@ -871,7 +873,7 @@ __COMPAT_LAYER = Installer
                    OutputType = exe
                    OverwriteReadOnlyFiles = false
                    ParallelDebugEnvironment = Auto
-                   Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\Program Files\SlikSvn\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
+                   Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Python34\;C:\Python34\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python33\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\gtk\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Universal Extractor;C:\Program Files (x86)\Universal Extractor\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby200-x64\bin;%JAVA_HOME%\bin;C:\Python33\Scripts;C:\Program Files (x86)\Nmap; C:\Windows\System32\wbin\;C:\Program Files (x86)\Nmap
                    PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.RB;.RBW
                    PkgDefApplicationConfigFile = C:\Users\Alexander Riccio\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
                    Platform = x64
@@ -975,7 +977,6 @@ __COMPAT_LAYER = Installer
                          BeforePublish;
                          GenerateManifests;
                          CopyFilesToOutputDirectory;
-                         CleanPublishFolder;
                          _CopyFilesToPublishFolder;
                          _DeploymentGenerateBootstrapper;
                          ResolveKeySource;
@@ -1053,6 +1054,7 @@ __COMPAT_LAYER = Installer
                    SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
                    sed = C:\wbin\sed.exe
                    seq = C:\wbin\seq.exe
+                   SESSIONNAME = Console
                    SGenFilesOutputGroupDependsOn = 
                    SGenShouldGenerateSerializer = true
                    SGenUseKeep = false
@@ -1178,7 +1180,7 @@ __COMPAT_LAYER = Installer
                    VSInstallDir_120 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
                    VSLANG = 1033
                    VSVersion = $(VisualStudoVersion)
-                   VTUNE_AMPLIFIER_XE_2013_DIR = C:\Program Files (x86)\Intel\VTune Amplifier XE 2013\
+                   VTUNE_AMPLIFIER_XE_2015_DIR = C:\Program Files (x86)\Intel\VTune Amplifier XE 2015\
                    wc = C:\wbin\wc.exe
                    WebBrowserDebuggerDebuggerType = Auto
                    WebReference_EnableLegacyEventingModel = false
@@ -1227,8 +1229,8 @@ __COMPAT_LAYER = Installer
                    YieldDuringToolExecution = true
                    zcat = C:\wbin\zcat.exe
 
-21:59:08.562     1>Building with tools version "12.0".
-21:59:08.562     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (entry point):
+12:18:18.896     1>Building with tools version "12.0".
+12:18:18.896     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (entry point):
                    Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
                    Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
                    Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
@@ -1245,22 +1247,22 @@ __COMPAT_LAYER = Installer
                    Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\x64\Debug\' != '' and !HasTrailingSlash('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\x64\Debug\')).
                    Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
                    Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('x64\Debug\' != '' and !HasTrailingSlash('x64\Debug\')).
-21:59:08.562     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "FileFindBench.vcxproj".: (TargetId:2)
-21:59:08.562     1>Target "_PrepareForClean: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.904     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "FileFindBench.vcxproj".: (TargetId:2)
+12:18:18.904     1>Target "_PrepareForClean: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
                    Using "Delete" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "Delete" (TaskId:4)
                      Task Parameter:Files=x64\Debug\FileFindBench.tlog\FileFindBench.lastbuildstate (TaskId:4)
                      Deleting file "x64\Debug\FileFindBench.tlog\FileFindBench.lastbuildstate". (TaskId:4)
                    Done executing task "Delete". (TaskId:4)
-21:59:08.562     1>Done building target "_PrepareForClean" in project "FileFindBench.vcxproj".: (TargetId:3)
-21:59:08.562     1>Target "BeforeClean: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
-21:59:08.562     1>Done building target "BeforeClean" in project "FileFindBench.vcxproj".: (TargetId:4)
+12:18:18.904     1>Done building target "_PrepareForClean" in project "FileFindBench.vcxproj".: (TargetId:3)
+12:18:18.904     1>Target "BeforeClean: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.904     1>Done building target "BeforeClean" in project "FileFindBench.vcxproj".: (TargetId:4)
                    Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
                                        ('$(_AssemblyTimestampBeforeCompile)' == '')) and
                                       Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
                                        ('' == '')) and
                                       Exists('obj\FileFindBench.vcxproj.UnmanagedRegistration.cache')).
-21:59:08.562     1>Target "CoreClean: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.905     1>Target "CoreClean: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
                    Task "Delete" (TaskId:5)
                      Task Parameter:
                          Files=
@@ -1298,8 +1300,8 @@ __COMPAT_LAYER = Installer
                      Task Parameter:File=x64\Debug\FileFindBench.vcxproj.FileListAbsolute.txt (TaskId:12)
                      Task Parameter:Overwrite=True (TaskId:12)
                    Done executing task "WriteLinesToFile". (TaskId:12)
-21:59:08.577     1>Done building target "CoreClean" in project "FileFindBench.vcxproj".: (TargetId:5)
-21:59:08.577     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CleanReferencedProjects" depends on it):
+12:18:18.906     1>Done building target "CoreClean" in project "FileFindBench.vcxproj".: (TargetId:5)
+12:18:18.906     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CleanReferencedProjects" depends on it):
                    Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Task "AssignProjectConfiguration" (TaskId:13)
                      Task Parameter:CurrentProject=C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj (TaskId:13)
@@ -1313,22 +1315,22 @@ __COMPAT_LAYER = Installer
                      Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:13)
                      Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:13)
                    Done executing task "AssignProjectConfiguration". (TaskId:13)
-21:59:08.577     1>Done building target "AssignProjectConfiguration" in project "FileFindBench.vcxproj".: (TargetId:6)
-21:59:08.577     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CleanReferencedProjects" depends on it):
+12:18:18.906     1>Done building target "AssignProjectConfiguration" in project "FileFindBench.vcxproj".: (TargetId:6)
+12:18:18.906     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CleanReferencedProjects" depends on it):
                    Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
-21:59:08.577     1>Done building target "_SplitProjectReferencesByFileExistence" in project "FileFindBench.vcxproj".: (TargetId:7)
-21:59:08.577     1>Target "CleanReferencedProjects: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.907     1>Done building target "_SplitProjectReferencesByFileExistence" in project "FileFindBench.vcxproj".: (TargetId:7)
+12:18:18.907     1>Target "CleanReferencedProjects: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
                    Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
-21:59:08.577     1>Done building target "CleanReferencedProjects" in project "FileFindBench.vcxproj".: (TargetId:8)
-21:59:08.577     1>Target "CleanPublishFolder: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.907     1>Done building target "CleanReferencedProjects" in project "FileFindBench.vcxproj".: (TargetId:8)
+12:18:18.907     1>Target "CleanPublishFolder: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
                    Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\x64\Debug\app.publish\'=='C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\x64\Debug\app.publish\' and Exists('C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\x64\Debug\app.publish\')).
-21:59:08.577     1>Done building target "CleanPublishFolder" in project "FileFindBench.vcxproj".: (TargetId:9)
-21:59:08.577     1>Target "AfterClean: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
-21:59:08.577     1>Done building target "AfterClean" in project "FileFindBench.vcxproj".: (TargetId:10)
+12:18:18.907     1>Done building target "CleanPublishFolder" in project "FileFindBench.vcxproj".: (TargetId:9)
+12:18:18.907     1>Target "AfterClean: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.907     1>Done building target "AfterClean" in project "FileFindBench.vcxproj".: (TargetId:10)
                    Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
-21:59:08.577     1>Target "BeforeCppClean: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
-21:59:08.577     1>Done building target "BeforeCppClean" in project "FileFindBench.vcxproj".: (TargetId:11)
-21:59:08.577     1>Target "CoreCppClean: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+12:18:18.907     1>Target "BeforeCppClean: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+12:18:18.907     1>Done building target "BeforeCppClean" in project "FileFindBench.vcxproj".: (TargetId:11)
+12:18:18.907     1>Target "CoreCppClean: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
                    Task "MakeDir" (TaskId:14)
                      Task Parameter:Directories=x64\Debug\ (TaskId:14)
                    Done executing task "MakeDir". (TaskId:14)
@@ -1345,7 +1347,6 @@ __COMPAT_LAYER = Installer
                          Lines=
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.pch
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\vc120.pdb
-                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\vc120.idb
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.pchast
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\stdafx.nativecodeanalysis.xml
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\stdafx.obj
@@ -1355,11 +1356,16 @@ __COMPAT_LAYER = Installer
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\x64\debug\filefindbench.pdb
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.res
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\nativecodeanalysis.read.1.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\vc120.idb
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\vc.nativecodeanalysis.all.xml
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\x64\debug\filefindbench.exe.lastcodeanalysissucceeded
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.command.1.tlog
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.1.tlog
-                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.7.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.10.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.11.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.6.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.8.tlog
+                             c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.read.9.tlog
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\cl.write.1.tlog
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\link.command.1.tlog
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\link.read.1.tlog
@@ -1369,22 +1375,22 @@ __COMPAT_LAYER = Installer
                              c:\users\alexander riccio\documents\github\filefindbench\filefindbench\filefindbench\x64\debug\filefindbench.tlog\rc.write.1.tlog (TaskId:16)
                      Task Parameter:Overwrite=True (TaskId:16)
                    Done executing task "WriteLinesToFile". (TaskId:16)
-21:59:08.593     1>Done building target "CoreCppClean" in project "FileFindBench.vcxproj".: (TargetId:12)
-21:59:08.593     1>Target "AfterCppClean: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
-21:59:08.593     1>Done building target "AfterCppClean" in project "FileFindBench.vcxproj".: (TargetId:13)
-21:59:08.593     1>Target "PGInstrumentedClean: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+12:18:18.952     1>Done building target "CoreCppClean" in project "FileFindBench.vcxproj".: (TargetId:12)
+12:18:18.952     1>Target "AfterCppClean: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
+12:18:18.952     1>Done building target "AfterCppClean" in project "FileFindBench.vcxproj".: (TargetId:13)
+12:18:18.952     1>Target "PGInstrumentedClean: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "CppClean" depends on it):
                    Task "Delete" (TaskId:17)
                    Done executing task "Delete". (TaskId:17)
-21:59:08.593     1>Done building target "PGInstrumentedClean" in project "FileFindBench.vcxproj".: (TargetId:14)
-21:59:08.593     1>Target "CppClean: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
-21:59:08.593     1>Done building target "CppClean" in project "FileFindBench.vcxproj".: (TargetId:15)
-21:59:08.593     1>Target "Clean: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (entry point):
-21:59:08.593     1>Done building target "Clean" in project "FileFindBench.vcxproj".: (TargetId:16)
-21:59:08.593     1>Done Building Project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (Clean target(s)).
+12:18:18.952     1>Done building target "PGInstrumentedClean" in project "FileFindBench.vcxproj".: (TargetId:14)
+12:18:18.952     1>Target "CppClean: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (target "Clean" depends on it):
+12:18:18.952     1>Done building target "CppClean" in project "FileFindBench.vcxproj".: (TargetId:15)
+12:18:18.952     1>Target "Clean: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (entry point):
+12:18:18.952     1>Done building target "Clean" in project "FileFindBench.vcxproj".: (TargetId:16)
+12:18:18.952     1>Done Building Project "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" (Clean target(s)).
 
 Project Performance Summary:
-       31 ms  C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj   1 calls
-                 31 ms  Clean                                      1 calls
+       56 ms  C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj   1 calls
+                 56 ms  Clean                                      1 calls
 
 Target Performance Summary:
         0 ms  AfterClean                                 1 calls
@@ -1394,26 +1400,26 @@ Target Performance Summary:
         0 ms  AfterCppClean                              1 calls
         0 ms  AssignProjectConfiguration                 1 calls
         0 ms  Clean                                      1 calls
-        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
         0 ms  BeforeCppClean                             1 calls
-        0 ms  _SplitProjectReferencesByFileExistence     1 calls
         0 ms  CleanReferencedProjects                    1 calls
         0 ms  CleanPublishFolder                         1 calls
         0 ms  CppClean                                   1 calls
-       16 ms  CoreCppClean                               1 calls
-       16 ms  CoreClean                                  1 calls
+        1 ms  CoreClean                                  1 calls
+        1 ms  _SplitProjectReferencesByFileExistence     1 calls
+        8 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       45 ms  CoreCppClean                               1 calls
 
 Task Performance Summary:
         0 ms  Message                                    2 calls
         0 ms  ReadLinesFromFile                          1 calls
         0 ms  AssignProjectConfiguration                 1 calls
-        0 ms  RemoveDuplicates                           1 calls
+        0 ms  FindUnderPath                              2 calls
         0 ms  MakeDir                                    2 calls
         0 ms  Delete                                     4 calls
-        0 ms  WriteLinesToFile                           2 calls
-       16 ms  CppClean                                   1 calls
-       16 ms  FindUnderPath                              2 calls
+        1 ms  RemoveDuplicates                           1 calls
+        3 ms  WriteLinesToFile                           2 calls
+       41 ms  CppClean                                   1 calls
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:00.05

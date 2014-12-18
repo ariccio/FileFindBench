@@ -184,12 +184,19 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <EnablePREfast>true</EnablePREfast>
+      <AdditionalOptions>/Bt+</AdditionalOptions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <AssemblerOutput>NoListing</AssemblerOutput>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
       <Profile>true</Profile>
+      <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -277,9 +284,9 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalOptions> /Qvec-report:2 /Qpar /Qpar-report:2 /GA /Gw /cgthreads8 </AdditionalOptions>
-      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalOptions>/Bt+  /Qvec-report:2 /Qpar-report:2</AdditionalOptions>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
@@ -288,6 +295,10 @@
       <OmitFramePointers>true</OmitFramePointers>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <StringPooling>true</StringPooling>
+      <ShowIncludes>true</ShowIncludes>
+      <UseFullPaths>true</UseFullPaths>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -296,6 +307,8 @@
       <OptimizeReferences>true</OptimizeReferences>
       <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
       <Profile>true</Profile>
+      <LinkStatus>true</LinkStatus>
+      <ShowProgress>LinkVerbose</ShowProgress>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Intel_Release|x64'">
@@ -307,8 +320,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <AdditionalOptions>/Bt+</AdditionalOptions>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
@@ -330,6 +342,7 @@
       <VectorizerDiagnosticLevel>3PlusGreaterDetail6</VectorizerDiagnosticLevel>
       <OptimizationDiagnosticLevel>Maximum</OptimizationDiagnosticLevel>
       <EnableGapAnalysis>Extreme</EnableGapAnalysis>
+      <ExceptionHandling>Sync</ExceptionHandling>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -347,7 +360,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalOptions> /Qvec-report:2 /Qpar /Qpar-report:2 /GA /Gw /cgthreads8 </AdditionalOptions>
+      <AdditionalOptions>/Bt+</AdditionalOptions>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
@@ -371,6 +384,7 @@
       <VectorizerDiagnosticLevel>3PlusGreaterDetail6</VectorizerDiagnosticLevel>
       <OptimizationDiagnosticLevel>Maximum</OptimizationDiagnosticLevel>
       <EnableGapAnalysis>Extreme</EnableGapAnalysis>
+      <ExceptionHandling>Sync</ExceptionHandling>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
