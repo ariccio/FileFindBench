@@ -3,9 +3,9 @@
 #include "stdafx.h"
 #include "resource.h"
 
-std::int64_t stdRecurseFind( _In_ std::wstring dir, _In_ bool isLargeFetch, _In_ bool isBasicInfo );
+__int64 stdRecurseFind( _In_ std::wstring dir, _In_ bool isLargeFetch, _In_ bool isBasicInfo );
 
-std::int64_t stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo );
+__int64 stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo );
 
 const DOUBLE getAdjustedTimingFrequency( );
 // TODO: reference additional headers your program requires here

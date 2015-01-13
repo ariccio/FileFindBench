@@ -35,6 +35,12 @@
 #include <Windows.h>
 #endif
 
+#include <concrt.h>
+#include <crtdefs.h>
+
+#define _HAS_EXCEPTIONS 0
+
+#include <future>
 
 #include "targetver.h"
 
@@ -52,11 +58,10 @@
 //#include <sstream>
 //#include <strsafe.h>
 #include <vector>
-#include <cstdint>
+//#include <cstdint>
 //#include <memory>
 //#include <ios>
-#include <exception>
-#include <future>
+//#include <exception>
 //#include <queue>
 #pragma warning(pop)
 

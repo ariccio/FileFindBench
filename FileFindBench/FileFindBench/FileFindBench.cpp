@@ -16,7 +16,7 @@ CWinApp theApp;
 
 
 
-static_assert( sizeof( long long ) == sizeof( std::int64_t ), "bad int size!" );
+//static_assert( sizeof( long long ) == sizeof( std::int64_t ), "bad int size!" );
 
 
 struct FileFindRecord {
@@ -98,12 +98,12 @@ bool FlushCache( ) {
 	return true;
 	}
 
-std::int64_t descendDirectory( _In_ WIN32_FIND_DATA& fData, _In_ const std::wstring& normSzDir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo, _In_ const bool futures = false ) {
+__int64 descendDirectory( _In_ WIN32_FIND_DATA& fData, _In_ const std::wstring& normSzDir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo, _In_ const bool futures = false ) {
 	std::wstring newSzDir( normSzDir );//MUST operate on copy!
 	newSzDir.reserve( MAX_PATH );
 	newSzDir += L"\\";
 	newSzDir += fData.cFileName;
-	std::int64_t num = 0;
+	__int64 num = 0;
 	if ( futures ) {
 		num += stdRecurseFindFutures( std::move( newSzDir ), isLargeFetch, isBasicInfo );
 		}
@@ -205,9 +205,9 @@ HANDLE call_find_first_file_ex( _In_ const std::wstring dir, _Out_ WIN32_FIND_DA
 	}
 
 
-std::int64_t stdRecurseFind( _In_ std::wstring dir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
+__int64 stdRecurseFind( _In_ std::wstring dir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
 
-	std::int64_t num = 0;
+	__int64 num = 0;
 	dir.reserve( MAX_PATH );
 	std::wstring normSzDir(dir);
 	assert( dir.size( ) > 2 );
@@ -254,9 +254,9 @@ std::int64_t stdRecurseFind( _In_ std::wstring dir, _In_ const bool isLargeFetch
 	}
 
 
-std::int64_t stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
+__int64 stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
 
-	std::int64_t num = 0;
+	__int64 num = 0;
 	dir.reserve( MAX_PATH );
 	std::wstring normSzDir( dir );
 	normSzDir.reserve( MAX_PATH );
@@ -267,7 +267,7 @@ std::int64_t stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLar
 	else if ( dir[ dir.length( ) - 1 ] == L'\\' ) {
 		dir += L"*";
 		}
-	std::vector<std::future<std::int64_t>> futureDirs;
+	std::vector<std::future<__int64>> futureDirs;
 	futureDirs.reserve( 100 );//pseudo-arbitrary number
 	WIN32_FIND_DATA fData;
 	HANDLE fDataHand = call_find_first_file_ex( std::move( dir ), fData, isLargeFetch, isBasicInfo );
@@ -294,18 +294,18 @@ std::int64_t stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLar
 			res = FindNextFileW( fDataHand, &fData );
 			}
 		}
+	FindClose( fDataHand );
 	const auto size_futureDirs = futureDirs.size( );
 	for ( size_t i = 0; i < size_futureDirs; ++i ) {
 		num += futureDirs[ i ].get( );
 		}
-	FindClose( fDataHand );
 	return num;
 	}
 
 
 void stdWork( _In_ std::wstring arg, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
 	wprintf( L"Working on: `%s`\r\n", arg.c_str( ) );
-	std::int64_t numberFiles = 0;
+	__int64 numberFiles = 0;
 	arg.reserve( MAX_PATH );
 	if ( arg.length( ) > 3 ) {
 		const auto strCmp = ( arg.compare( 0, 4, arg, 0, 4 ) );
@@ -324,7 +324,7 @@ void stdWork( _In_ std::wstring arg, _In_ const bool isLargeFetch, _In_ const bo
 
 void stdWorkAsync( _In_ std::wstring arg, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
 	wprintf( L"Working on: `%s`\r\n", arg.c_str( ) );
-	std::int64_t numberFiles = 0;
+	__int64 numberFiles = 0;
 	arg.reserve( MAX_PATH );
 	if ( arg.length( ) > 3 ) {
 		const auto strCmp = ( arg.compare( 0, 4, arg, 0, 4 ) );
