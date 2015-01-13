@@ -492,6 +492,8 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 		Sleep( 5000 );
 		return ERROR_BAD_ARGUMENTS;
 		}
+	std::wstring arg = argv[ 1 ];
+	std::vector<FileFindRecord> records;
 
 	HMODULE hModule = ::GetModuleHandleW( NULL );
 
@@ -579,62 +581,60 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 
 	//std::wcout << TRACE_OUT( minCache ) << TRACE_OUT( maxCache ) << TRACE_OUT( cacheVars ) << std::endl;
 
+	arg.reserve( MAX_PATH );
+	//std::wstringstream ss;
+	records.reserve( 17 );
+	if ( hModule != NULL ) {
 
-	try {
-		std::wstring arg = argv[ 1 ];
-		arg.reserve( MAX_PATH );
-		//std::wstringstream ss;
-		std::vector<FileFindRecord> records;
-		records.reserve( 17 );
-		if ( hModule != NULL ) {
-
-			//wrapCFileFind( arg.c_str( ), ss );
-			for ( int i = 0; i < 2; ++i ) {
-				TRACE_OUT_C_STYLE( i, %i );
-				TRACE_OUT_C_STYLE_ENDL( );
-				//std::wcout << TRACE_OUT( i ) << std::endl;
+		//wrapCFileFind( arg.c_str( ), ss );
+		for ( int i = 0; i < 2; ++i ) {
+			TRACE_OUT_C_STYLE( i, %i );
+			TRACE_OUT_C_STYLE_ENDL( );
+			//std::wcout << TRACE_OUT( i ) << std::endl;
 
 
-				//records.emplace_back( iterate( arg, false, true, true ) );
-				//records.emplace_back( iterate( arg, false, true, true ) );
-				//records.emplace_back( iterate( arg, false, true, true ) );
-				//records.emplace_back( iterate( arg, false, true, true ) );
+			//records.emplace_back( iterate( arg, false, true, true ) );
+			//records.emplace_back( iterate( arg, false, true, true ) );
+			//records.emplace_back( iterate( arg, false, true, true ) );
+			//records.emplace_back( iterate( arg, false, true, true ) );
 
-				//----
+			//----
 
-				//records.emplace_back( iterate( arg, true, true, false )  );
-				//records.emplace_back( iterate( arg, false, true, false ) );
+			//records.emplace_back( iterate( arg, true, true, false )  );
+			//records.emplace_back( iterate( arg, false, true, false ) );
 
-				//records.emplace_back( iterate( arg, true, false, false ) );
-				//records.emplace_back( iterate( arg, false, false, false ));
+			//records.emplace_back( iterate( arg, true, false, false ) );
+			//records.emplace_back( iterate( arg, false, false, false ));
 
-				records.emplace_back( iterate( arg, true, true, true ) );
-				records.emplace_back( iterate( arg, false, true, true ) );
+			records.emplace_back( iterate( arg, true, true, true ) );
+			records.emplace_back( iterate( arg, false, true, true ) );
 
-				records.emplace_back( iterate( arg, true, false, true ) );
-				records.emplace_back( iterate( arg, false, false, true ) );
-				}
-
-
-			//wrapCFileFind( arg.c_str( ), ss );
-			wprintf( L"---------------------\r\n" );
-			const auto size_records = records.size( );
-			if ( size_records > 1 ) {
-				std::sort( &( records[ 0 ] ), &( records[ size_records - 1 ] ) );
-				}
-			for ( size_t i = 0; i < size_records; ++i ) {
-				wprintf( L"%s\r\n", formatFileFindRecord( records[ i ] ).c_str( ) );
-				}
-			//stats( records );
+			records.emplace_back( iterate( arg, true, false, true ) );
+			records.emplace_back( iterate( arg, false, false, true ) );
 			}
-		else {
-			nRetCode = 1;
+
+
+		//wrapCFileFind( arg.c_str( ), ss );
+		wprintf( L"---------------------\r\n" );
+		const auto size_records = records.size( );
+		if ( size_records > 1 ) {
+			std::sort( &( records[ 0 ] ), &( records[ size_records - 1 ] ) );
 			}
+		for ( size_t i = 0; i < size_records; ++i ) {
+			wprintf( L"%s\r\n", formatFileFindRecord( records[ i ] ).c_str( ) );
+			}
+		//stats( records );
 		}
-	catch ( std::exception& e ) {
-		fprintf( stderr, "%s\r\n", e.what( ) );
-		goto cleanup;
+	else {
+		nRetCode = 1;
 		}
+
+	//try {
+	//	}
+	//catch ( std::exception& e ) {
+	//	fprintf( stderr, "%s\r\n", e.what( ) );
+	//	goto cleanup;
+	//	}
 cleanup://If we've made any changes, revert them
 	if ( !SetSystemFileCacheSize( Starting_minCache, Starting_maxCache, 0 ) ) {
 		fwprintf( stderr, L"Error resetting cache size!\r\n" );
