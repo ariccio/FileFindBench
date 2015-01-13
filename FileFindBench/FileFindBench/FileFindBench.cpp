@@ -185,7 +185,7 @@ void trace_fDataBits( _In_ const WIN32_FIND_DATA& fData, _In_ const std::wstring
 		}
 	}
 
-HANDLE call_find_first_file_ex( _In_ const std::wstring& dir, _Out_ WIN32_FIND_DATA& fData, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
+HANDLE call_find_first_file_ex( _In_ const std::wstring dir, _Out_ WIN32_FIND_DATA& fData, _In_ const bool isLargeFetch, _In_ const bool isBasicInfo ) {
 	if ( isLargeFetch ) {
 		if ( isBasicInfo ) {
 			return FindFirstFileExW( dir.c_str( ), FindExInfoBasic,    &fData, FindExSearchNameMatch, NULL, FIND_FIRST_EX_LARGE_FETCH );
@@ -221,7 +221,7 @@ std::int64_t stdRecurseFind( _In_ std::wstring dir, _In_ const bool isLargeFetch
 
 	WIN32_FIND_DATA fData;
 
-	HANDLE fDataHand = call_find_first_file_ex( dir, fData, isLargeFetch, isBasicInfo );
+	HANDLE fDataHand = call_find_first_file_ex( std::move( dir ), fData, isLargeFetch, isBasicInfo );
 	if ( fDataHand != INVALID_HANDLE_VALUE ) {
 		if ( !( wcscmp( fData.cFileName, L".." ) == 0 ) ) {
 			//++num;
@@ -270,7 +270,7 @@ std::int64_t stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLar
 	std::vector<std::future<std::int64_t>> futureDirs;
 	futureDirs.reserve( 100 );//pseudo-arbitrary number
 	WIN32_FIND_DATA fData;
-	HANDLE fDataHand = call_find_first_file_ex( dir, fData, isLargeFetch, isBasicInfo );
+	HANDLE fDataHand = call_find_first_file_ex( std::move( dir ), fData, isLargeFetch, isBasicInfo );
 
 	if ( fDataHand != INVALID_HANDLE_VALUE ) {
 		if ( !( wcscmp( fData.cFileName, L".." ) == 0 ) ) {
@@ -279,17 +279,14 @@ std::int64_t stdRecurseFindFutures( _In_ std::wstring dir, _In_ const bool isLar
 		auto res = FindNextFileW( fDataHand, &fData );
 		while ( ( fDataHand != INVALID_HANDLE_VALUE ) && ( res != 0 ) ) {
 			//trace_wcout_bad( );
-			auto scmpVal = wcscmp( fData.cFileName, L".." );
+			const auto scmpVal = wcscmp( fData.cFileName, L".." );
 			if ( ( !( scmpVal == 0 ) ) ) {
 				++num;
 				}
 			if ( ( fData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY ) && ( scmpVal != 0 ) ) {
 				futureDirs.emplace_back( std::move( std::async( std::launch::async|std::launch::deferred, descendDirectory, fData, normSzDir, isLargeFetch, isBasicInfo, true ) ) );
 				}
-			else if ( ( scmpVal != 0 ) && ( fData.dwFileAttributes & FILE_ATTRIBUTE_NORMAL ) ) {
-				//++num;
-				}
-			else if ( ( scmpVal != 0 ) && ( ( ( fData.dwFileAttributes & FILE_ATTRIBUTE_DEVICE ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_INTEGRITY_STREAM ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_HIDDEN ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_NO_SCRUB_DATA ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_OFFLINE ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_REPARSE_POINT ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_SPARSE_FILE ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_VIRTUAL ) ) ) ) {
+			else if ( ( scmpVal != 0 ) && ( ( ( fData.dwFileAttributes & FILE_ATTRIBUTE_DEVICE ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_INTEGRITY_STREAM ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_HIDDEN ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_NO_SCRUB_DATA ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_OFFLINE ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_REPARSE_POINT ) || ( fData.dwFileAttributes & FILE_ATTRIBUTE_VIRTUAL ) ) ) ) {
 				
 				trace_fDataBits( fData, normSzDir );
 				--num;
@@ -311,7 +308,7 @@ void stdWork( _In_ std::wstring arg, _In_ const bool isLargeFetch, _In_ const bo
 	std::int64_t numberFiles = 0;
 	arg.reserve( MAX_PATH );
 	if ( arg.length( ) > 3 ) {
-		auto strCmp = ( arg.compare( 0, 4, arg, 0, 4 ) );
+		const auto strCmp = ( arg.compare( 0, 4, arg, 0, 4 ) );
 		if ( strCmp != 0 ) {
 			arg = L"\\\\?\\" + arg;
 			wprintf( L"prefixed `%s`, value now: `%s`\r\n\r\n", arg.c_str( ), arg.c_str( ) );
@@ -330,7 +327,7 @@ void stdWorkAsync( _In_ std::wstring arg, _In_ const bool isLargeFetch, _In_ con
 	std::int64_t numberFiles = 0;
 	arg.reserve( MAX_PATH );
 	if ( arg.length( ) > 3 ) {
-		auto strCmp = ( arg.compare( 0, 4, arg, 0, 4 ) );
+		const auto strCmp = ( arg.compare( 0, 4, arg, 0, 4 ) );
 		if ( strCmp != 0 ) {
 			arg = L"\\\\?\\" + arg;
 			wprintf( L"prefixed `%s`, value now: `%s`\r\n\r\n", arg.c_str( ), arg.c_str( ) );
@@ -340,14 +337,14 @@ void stdWorkAsync( _In_ std::wstring arg, _In_ const bool isLargeFetch, _In_ con
 		arg = L"\\\\?\\" + arg;
 		wprintf( L"prefixed `%s`, value now: `%s`\r\n\r\n", arg.c_str( ), arg.c_str( ) );
 		}
-	numberFiles = stdRecurseFindFutures( arg, isLargeFetch, isBasicInfo );
+	numberFiles = stdRecurseFindFutures( std::move( arg ), isLargeFetch, isBasicInfo );
 	wprintf( L"\r\nNumber of items: %I64d\r\n", numberFiles );
 	}
 
 
 const DOUBLE getAdjustedTimingFrequency( ) {
 	LARGE_INTEGER timingFrequency;
-	BOOL res1 = QueryPerformanceFrequency( &timingFrequency );
+	const BOOL res1 = QueryPerformanceFrequency( &timingFrequency );
 	if ( !res1 ) {
 		wprintf( L"QueryPerformanceFrequency failed!!!!!! Disregard any timing data!!\r\n" );
 		}
@@ -387,22 +384,22 @@ FileFindRecord iterate( _In_ const std::wstring& arg, _In_ const bool isLargeFet
 	LARGE_INTEGER endTime;
 	
 	//std::int64_t fileSizeTotal = 0;
-	auto adjustedTimingFrequency = getAdjustedTimingFrequency( );
+	const auto adjustedTimingFrequency = getAdjustedTimingFrequency( );
 
-	BOOL res2 = QueryPerformanceCounter( &startTime );
+	const BOOL res2 = QueryPerformanceCounter( &startTime );
 	if ( IsAsync ) {
 		stdWorkAsync( arg, isLargeFetch, isBasicInfo );
 		}
 	else {
 		stdWork( arg, isLargeFetch, isBasicInfo );
 		}
-	BOOL res3 = QueryPerformanceCounter( &endTime );
+	const BOOL res3 = QueryPerformanceCounter( &endTime );
 	
 	if ( ( !res2 ) || ( !res3 ) ) {
 		wprintf( L"QueryPerformanceCounter failed!!!!!! Disregard any timing data!!\r\n" );
 		}
 
-	auto totalTime = ( endTime.QuadPart - startTime.QuadPart ) * adjustedTimingFrequency;
+	const auto totalTime = ( endTime.QuadPart - startTime.QuadPart ) * adjustedTimingFrequency;
 	//times.emplace_back( totalTime );
 	//ss << L"Time in seconds:  " << totalTime << std::endl;
 
@@ -588,6 +585,7 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 		arg.reserve( MAX_PATH );
 		//std::wstringstream ss;
 		std::vector<FileFindRecord> records;
+		records.reserve( 17 );
 		if ( hModule != NULL ) {
 
 			//wrapCFileFind( arg.c_str( ), ss );
@@ -597,10 +595,12 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 				//std::wcout << TRACE_OUT( i ) << std::endl;
 
 
-				records.emplace_back( iterate( arg, false, true, true ) );
-				records.emplace_back( iterate( arg, false, true, true ) );
-				records.emplace_back( iterate( arg, false, true, true ) );
-				records.emplace_back( iterate( arg, false, true, true ) );
+				//records.emplace_back( iterate( arg, false, true, true ) );
+				//records.emplace_back( iterate( arg, false, true, true ) );
+				//records.emplace_back( iterate( arg, false, true, true ) );
+				//records.emplace_back( iterate( arg, false, true, true ) );
+
+				//----
 
 				//records.emplace_back( iterate( arg, true, true, false )  );
 				//records.emplace_back( iterate( arg, false, true, false ) );
@@ -608,11 +608,11 @@ int wmain( int argc, _In_reads_( argc ) _Readable_elements_( argc ) WCHAR* argv[
 				//records.emplace_back( iterate( arg, true, false, false ) );
 				//records.emplace_back( iterate( arg, false, false, false ));
 
-				//records.emplace_back( iterate( arg, true, true, true ) );
-				//records.emplace_back( iterate( arg, false, true, true ) );
+				records.emplace_back( iterate( arg, true, true, true ) );
+				records.emplace_back( iterate( arg, false, true, true ) );
 
-				//records.emplace_back( iterate( arg, true, false, true ) );
-				//records.emplace_back( iterate( arg, false, false, true ) );
+				records.emplace_back( iterate( arg, true, false, true ) );
+				records.emplace_back( iterate( arg, false, false, true ) );
 				}
 
 
@@ -657,6 +657,6 @@ cleanup://If we've made any changes, revert them
 	TRACE_OUT_C_STYLE( cacheVars, %lu );
 	TRACE_OUT_C_STYLE_ENDL( );
 
-	stdRecurseFindFutures( L"", false, false );
+	//stdRecurseFindFutures( L"", false, false );
 	return nRetCode;
 	}
