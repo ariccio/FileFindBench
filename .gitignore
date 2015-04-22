@@ -39,3 +39,10 @@ Icon
 
 *.ipch
 *.vspx
+*.exe
+*.pdb
+*.obj
+*.tlog
+*.pch
+*.pchast
+*.idb

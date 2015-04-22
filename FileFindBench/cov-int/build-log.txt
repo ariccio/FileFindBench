@@ -1,0 +1,824 @@
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> cov-build 7.6.0 (build 9b77a50df0 p-harmony-push-21098.563)
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Coverity Build Capture (64-bit) version 7.6.0 on Windows 8 Professional, 64-bit (build 9200)
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Internal version numbers: 9b77a50df0 p-harmony-push-21098.563
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Dumping from hostname : ALEXANDERLAPTOP
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Platform info: Windows 8 Professional, 64-bit (build 9200)
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> cov-build command: cov-build --dir cov-int msbuild "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> build command: C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> thunk command: msbuild.exe C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_BUILD_COMMAND to "C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe"  "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj"
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_ORIG_BUILD_COMMAND to msbuild.exe C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir cov-int msbuild "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj" 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to inject
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_BIN to C:/Users/Alexander Riccio/cov-analysis-win64-7.6.0/bin
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_SITE_CC to vbcscompiler;apt;c++;cc;cl;clang;clang++;csc;csc2;devenv;g++;g++-4.8;g++-4.9;gcc;gcc-4.8;gcc-4.9;java;javac;javaw;msbuild;xgcc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_TEMP to C:/Users/ALEXAN~1/AppData/Local/Temp/cov-AlexanderRiccio/a9c41a1376b103f97b8a2f3861cc2813
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_IDIR to c:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/cov-int
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-a0181638ea6ee566d97cc000f2980bd1.s
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-a0181638ea6ee566d97cc000f2980bd1.m
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_OUTPUT_ENCODING to windows-1252
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_EMIT to c:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/cov-int/emit
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Append to PATH C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\jars
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Setting COVERITY_LD_LIBRARY_PATH to C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\jars
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Set COVERITY_USING_CYGWIN to False
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Dumping configuration:
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> User/default configuration:
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: command-line
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: c:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: prevent
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: dir Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-1/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-csc-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-msvc_devenv-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-msvc_msbuild-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-csc-config-1/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-csc-config-2/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-javac-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-java-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-apt-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-javaw-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-msvc-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-2/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-g++-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-3/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-clangcc-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-clangcxx-config-0/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-4/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-5/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-6/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: include Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config/template-gcc-config-7/coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: gcc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: gcc-gcc-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-0/../user_nodefs.h
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: g++-gcc-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-0/../user_nodefs.h
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: f23c3a0bd26a6ae718a86b54cc7d0c25
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-1\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: g++
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: gcc-g++-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-1/../user_nodefs.h
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: g++-g++-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-1/../user_nodefs.h
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: ae419895d25cae0d0d29e0246080703c
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-csc-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C#
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: csc-csc-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc_devenv-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: devenv
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: msvc_devenv
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: msvc_devenv-devenv-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc_devenv-config-0/../user_nodefs.h
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: 61a24234ac1dba14b425ee513c682971
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc_msbuild-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: msbuild
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: msvc_msbuild
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc_msbuild-config-0/../user_nodefs.h
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: ea04be9161c738f06f3ca49f8baac6bc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-csc-config-1\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: VBCSCompiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C#
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: csc-VBCSCompiler-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: 546cfefb38e06b0cda67c89f78764b01
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-csc-config-2\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: csc2
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: C#
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: csc
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: csc-csc2-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-javac-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: javac
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: javac
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: Static Java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: javac-javac-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-java-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: Static Java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: java-java-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-apt-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: apt
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: apt
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: Static Java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: apt-apt-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-javaw-config-0\coverity_config.xml
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_name Value: javaw
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_translator Value: javaw
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_lang Value: Static Java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: comp_generic Value: java
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: id Value: javaw-javaw-.*
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.250042Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc-config-0\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: cl
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: msvc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: version Value: 1600
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: msvc-cl-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: msvc_cxx-cl-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: d9223876b3da325f36c6a2d1341d8db1
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-2\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: cc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: gcc-cc-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-2/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-cc-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-2/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: 310c7c75a4861b650ee4a2a28b87478e
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-g++-config-0\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: c++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: g++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-c++-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-g++-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: 6207e5748b800ad34c22874106d7aefc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-3\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: xgcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: gcc-xgcc-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-3/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-xgcc-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-3/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: b428288a9891fd8fa6b0b448efceb81d
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-clangcc-config-0\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: clang
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: clangcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_generic Value: clang
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: clangcc-clang-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-clangcc-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: clangcxx-clang-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-clangcc-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: d09ae2b261e2990a41165e499b8fd9d8
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-clangcxx-config-0\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: clang++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: clangcxx
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_generic Value: clang
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: clangcxx-clang++-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-clangcxx-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: clangcxxcc-clang++-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-clangcxx-config-0/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: 2c7b6eaf92030592f971d72dfb61260c
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-4\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: gcc-4.8
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: gcc-gcc-4.8-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-4/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-gcc-4.8-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-4/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: b2015dad6ad3033c6fcdc49101477214
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-5\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: g++-4.8
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: gcc-g++-4.8-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-5/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-g++-4.8-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-5/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: 47d371a14b62ab51d5304f92e1d0aafe
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-6\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: gcc-4.9
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: gcc-gcc-4.9-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-6/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-gcc-4.9-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-6/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: 767b93b3d29a828b6fa48a5135adabee
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Configuration read from: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-7\coverity_config.xml
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> Node: coverity
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>     Node: build
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: compiler
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: template_compiler Value: true
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_name Value: g++-4.9
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_translator Value: gcc
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: comp_lang Value: C/C++
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: gcc-g++-4.9-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-7/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>       Node: options
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: id Value: g++-g++-4.9-.*
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: opt_preinclude_file Value: C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-gcc-config-7/../user_nodefs.h
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>         Node: begin_command_line_config
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|>   Node: md5 Value: ed4afd41a66d631a21aad61f26370fd2
+2015-04-20T22:48:46.265653Z|cov-build|31740|info|> 
+2015-04-20T22:48:46.359407Z|cov-internal-capture|32284|info|> Running build command: "C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe"  "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj"
+2015-04-20T22:48:46.359407Z|cov-internal-capture|32284|info|> Launching in directory C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench
+2015-04-20T22:48:46.390657Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe"  "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\FileFindBench.vcxproj"
+2015-04-20T22:48:49.359687Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe" /noconfig /fullpaths @"C:\Users\Alexander Riccio\AppData\Local\Temp\jmeaxy1e.cmdline"
+2015-04-20T22:48:49.515940Z|cov-internal-capture|32284|info|> EXECUTING: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 "/OUT:C:\Users\ALEXAN~1\AppData\Local\Temp\RES98A2.tmp" "c:\Users\Alexander Riccio\AppData\Local\Temp\CSC5DFA58E62E9E4C8B8F795DB1238B17A3.TMP"
+2015-04-20T22:48:49.562815Z|cov-internal-capture|32284|info|> CWD: C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\
+2015-04-20T22:48:49.562815Z|cov-internal-capture|32284|info|> COMPILING: "C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\bin\cov-translate.exe" "C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe" /noconfig /fullpaths @"C:\Users\Alexander Riccio\AppData\Local\Temp\jmeaxy1e.cmdline"
+2015-04-20T22:48:49.562815Z|cov-internal-capture|32284|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-a0181638ea6ee566d97cc000f2980bd1.s
+2015-04-20T22:48:49.760380Z|cov-translate|8544|output|> Encountered compiler c:\windows\microsoft.net\framework\v4.0.30319\csc for the first time, configuring it
+2015-04-20T22:48:49.791629Z|cov-translate|8544|output|> * Configuring c:\windows\microsoft.net\framework\v4.0.30319\csc
+2015-04-20T22:48:49.791629Z|cov-translate|8544|output|> [WARNING] Template config template-csc-config-2 already exists for csc2 and will be reused. 
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Added template compiler configuration instance c:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/cov-int/emit/ALEXANDERLAPTOP/config/5528f07cd04e52c7cde0a944f6a75c7a/coverity_config.xml
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Configuration read from: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\5528f07cd04e52c7cde0a944f6a75c7a\coverity_config.xml
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Node: coverity
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>   Node: config
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>     Node: include Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\5528f07cd04e52c7cde0a944f6a75c7a\csc-config-0\coverity_config.xml
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>     Node: include Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\5528f07cd04e52c7cde0a944f6a75c7a\template-csc-config-0\coverity_config.xml
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Configuration read from: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\5528f07cd04e52c7cde0a944f6a75c7a\csc-config-0\coverity_config.xml
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Node: coverity
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>   Node: config
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>     Node: build
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>       Node: compiler
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_name Value: csc
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_dir Value: c:\windows\microsoft.net\framework\v4.0.30319
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_translator Value: csc
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_lang Value: C#
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_front_end Value: cov-emit-cs
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_desc Value: Microsoft C# Compiler
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_generic Value: csc
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: id Value: csc-csc-5528f07cd04e52c7cde0a944f6a75c7a-0
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>       Node: options
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: id Value: csc-csc-5528f07cd04e52c7cde0a944f6a75c7a-0
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: template_config_option_id Value: csc-csc-.*
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: preprocess_switch Value: -E
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: preprocess_output Value: -
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: skip_arg Value: /?
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: skip_arg Value: -?
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: skip_arg_regex_icase Value: [-/]help
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: pre_trans
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>           Node: options
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>             Node: prepend_arg Value: -coverity_source=csharp
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>             Node: intern_trans Value: csc_pre_translate
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: expand
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>           Node: options
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>             Node: replace_arg_regex
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>               Node: replace Value: @[a-zA-Z0-9]+@(.*)
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>               Node: with Value: --coverity_resp_file=$1
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>             Node: replace_arg_regex
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>               Node: replace Value: @+(.*)
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>               Node: with Value: --coverity_resp_file=$1
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: begin_command_line_config
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>   Node: md5 Value: 90f04b448d6b90ba18753a34fc31e1c6
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Configuration read from: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\5528f07cd04e52c7cde0a944f6a75c7a\template-csc-config-0\coverity_config.xml
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> Node: coverity
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>   Node: config
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>     Node: build
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>       Node: compiler
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: template_compiler Value: true
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_name Value: vbcscompiler
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_translator Value: csc
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_lang Value: C#
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: comp_generic Value: csc
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>       Node: options
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: id Value: csc-vbcscompiler-.*
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>         Node: begin_command_line_config
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|>   Node: md5 Value: fd15f0046ce5960319fb0434cac95a31
+2015-04-20T22:48:49.807254Z|cov-translate|8544|output|> COV_TRANSLATE EXPANDED ARGS: "/noconfig" "/fullpaths" "/t:library" "/utf8output" "/R:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" "/R:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Framework\v4.0_12.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Framework.dll" "/R:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v12.0\v4.0_12.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v12.0.dll" "/R:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll" "/out:C:\Users\Alexander Riccio\AppData\Local\Temp\jmeaxy1e.dll" "/D:DEBUG" "/debug+" "/optimize-" "C:\Users\Alexander Riccio\AppData\Local\Temp\jmeaxy1e.0.cs"
+2015-04-20T22:48:49.932258Z|cov-translate|8544|output|> [STATUS] Compiling ..\..\..\..\..\AppData\Local\Temp\jmeaxy1e.0.cs
+2015-04-20T22:48:49.932258Z|cov-translate|8544|output|> "C:/Users/Alexander Riccio/cov-analysis-win64-7.6.0/bin/cov-emit-cs.exe" "--dir=c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int" --lib . --lib C:\Windows\Microsoft.NET\Framework\v4.0.30319\ --compiler-dir c:\windows\microsoft.net\framework\v4.0.30319 --noconfig --reference C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll --reference C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Framework\v4.0_12.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Framework.dll --reference C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v12.0\v4.0_12.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v12.0.dll --reference C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll --define DEBUG --lib "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib" --lib "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib" --lib "C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86" --out "C:\Users\Alexander Riccio\AppData\Local\Temp\jmeaxy1e.dll" ../../../../../AppData/Local/Temp/jmeaxy1e.0.cs 
+2015-04-20T22:48:49.947882Z|cov-translate|8544|output|> Command line with response file: C:/Users/Alexander Riccio/cov-analysis-win64-7.6.0/bin/cov-emit-cs.exe @utf8@c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\tmp\cov-emit-cs-76f988b355f3df2f1ad5d5c097298fa0-0.cmd_args.txt
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Coverity C# Emit version 7.6.0 on Windows 8 Professional, 64-bit (build 9200)
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Internal version numbers: 9b77a50df0 p-harmony-push-21098.563
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> CLR system directory: 'c:/windows/microsoft.net/framework/v4.0.30319'.
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Using Mono FE
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> BEGIN cov-emit-cs read
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Source file: C:\Users\Alexander Riccio\AppData\Local\Temp\jmeaxy1e.0.cs
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Referenced assembly: c:\windows\microsoft.net\framework\v4.0.30319\mscorlib.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Referenced assembly: C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Referenced assembly: C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Framework\v4.0_12.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Framework.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Referenced assembly: C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v12.0\v4.0_12.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v12.0.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Referenced assembly: C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Compiler output file: C:/Users/Alexander Riccio/AppData/Local/Temp/jmeaxy1e.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> END
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Handling built AST
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Determining assemblies to emit
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Decompiling assembly (1 / 5): C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.Build.Framework/v4.0_12.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Framework.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Successfully parsed bytecode for 571 of 571 method bodies in reference C:/Windows/Microsoft.NET/assembly/GAC_MSIL/Microsoft.Build.Framework/v4.0_12.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Framework.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Decompiling assembly (2 / 5): C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.Build.Utilities.v12.0/v4.0_12.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Utilities.v12.0.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Successfully parsed bytecode for 1184 of 1184 method bodies in reference C:/Windows/Microsoft.NET/assembly/GAC_MSIL/Microsoft.Build.Utilities.v12.0/v4.0_12.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Utilities.v12.0.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Decompiling assembly (3 / 5): C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Skipped parsing method bodies for shipped assembly C:/Windows/Microsoft.NET/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Decompiling assembly (4 / 5): C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Skipped parsing method bodies for shipped assembly C:/Windows/Microsoft.NET/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Decompiling assembly (5 / 5): c:/windows/microsoft.net/framework/v4.0.30319/mscorlib.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> Skipped parsing method bodies for shipped assembly C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> cov-emit-cs took 12s
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.360171Z|cov-translate|8544|output|> 
+2015-04-20T22:49:02.685657Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe" @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmp77029bc9b8c34b009572fe5d0306d972.tmp" /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmp171324f6276649fb85dfe42e535c48f5.rsp"
+2015-04-20T22:49:02.732533Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe" "@C:\Users\Alexander Riccio\AppData\Local\Temp\tmp171324f6276649fb85dfe42e535c48f5.rsp"
+2015-04-20T22:49:02.810658Z|cov-internal-capture|32284|info|> EXECUTING: mspdbsrv.exe -start -spawn
+2015-04-20T22:49:26.377819Z|cov-internal-capture|32284|info|> CWD: C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\
+2015-04-20T22:49:26.377819Z|cov-internal-capture|32284|info|> COMPILING: "C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\bin\cov-translate.exe" "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe" "@C:\Users\Alexander Riccio\AppData\Local\Temp\tmp171324f6276649fb85dfe42e535c48f5.rsp"
+2015-04-20T22:49:26.377819Z|cov-internal-capture|32284|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-a0181638ea6ee566d97cc000f2980bd1.s
+2015-04-20T22:49:26.484638Z|cov-translate|35252|output|> Encountered compiler c:\program files (x86)\microsoft visual studio 12.0\vc\bin\cl for the first time, configuring it
+2015-04-20T22:49:26.520727Z|cov-translate|35252|output|> * Configuring c:\program files (x86)\microsoft visual studio 12.0\vc\bin\cl as a C compiler
+2015-04-20T22:49:26.567602Z|cov-translate|35252|output|> Looking for macros in standard headers. This can take a long time.
+2015-04-20T22:49:46.002298Z|cov-translate|35252|output|> |/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|
+2015-04-20T22:49:46.201328Z|cov-translate|35252|output|> [STATUS] msvc-config-0: Retrieving values for macros
+2015-04-20T22:50:17.898596Z|cov-translate|35252|output|> [STATUS] msvc-config-0: Running sanity tests on native compiler
+2015-04-20T22:50:21.423875Z|cov-translate|35252|output|> [STATUS] msvc-config-0: Detecting size and alignment of fundamental types.
+2015-04-20T22:50:21.423875Z|cov-translate|35252|output|> * Configuring c:\program files (x86)\microsoft visual studio 12.0\vc\bin\cl as a C++ compiler
+2015-04-20T22:50:35.883766Z|cov-translate|35252|output|> Looking for macros in standard headers. This can take a long time.
+2015-04-20T22:50:35.883766Z|cov-translate|35252|output|> [STATUS] msvc_cxx-config-0: Retrieving values for macros
+2015-04-20T22:51:06.784950Z|cov-translate|35252|output|> [STATUS] msvc_cxx-config-0: Running sanity tests on native compiler
+2015-04-20T22:51:11.446715Z|cov-translate|35252|output|> [STATUS] msvc_cxx-config-0: Detecting size and alignment of fundamental types.
+2015-04-20T22:51:11.446715Z|cov-translate|35252|output|> Added template compiler configuration instance c:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/cov-int/emit/ALEXANDERLAPTOP/config/b68ccd3711e85e39c1b7dd6be15fd487/coverity_config.xml
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Configuration read from: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\coverity_config.xml
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Node: coverity
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>   Node: config
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>     Node: include Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity_config.xml
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>     Node: include Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity_config.xml
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Configuration read from: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity_config.xml
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Node: coverity
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>   Node: config
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>     Node: build
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>       Node: compiler
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_name Value: cl
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_dir Value: c:\program files (x86)\microsoft visual studio 12.0\vc\bin
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_translator Value: msvc
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_lang Value: C/C++
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: id Value: msvc-cl-1800-b68ccd3711e85e39c1b7dd6be15fd487-0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: version Value: 1800
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>       Node: options
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: id Value: msvc-cl-1800-b68ccd3711e85e39c1b7dd6be15fd487-0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: template_config_option_id Value: msvc-cl-.*
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_remove_arg Value: [-/]Fo.+
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_remove_arg Value: [-/]c
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_remove_next_arg Value: [-/]Fo
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_switch Value: /E
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_compile_switch Value: /C
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: pre_preinclude_file Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity-macro-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: pre_preinclude_file Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity-compiler-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: -w
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --size_t_type=j
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --type_sizes=x8li4s2ed8fP4
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --type_alignments=x8li4s2ed8fP4
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --enable_declspec
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --default_cdecl
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --microsoft_version
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: 1800
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /E
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /EP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /P
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /Zg
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /Zs
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /?
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /HELP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /help
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /ZW
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -E
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -EP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -P
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -Zg
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -Zs
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -?
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -HELP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -help
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -ZW
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: /CLR
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: -CLR
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: /clr
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: -clr
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_file Value: conftest\.cpp$
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: opt_preinclude_file Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0/../user_nodefs.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: begin_command_line_config
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>   Node: md5 Value: 63ea60317040748a460f50e4d56a0f47
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file begin: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity-macro-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> ﻿
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_VER 1800
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_FULL_VER 180031101
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _M_IX86 600
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _WIN32 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _M_IX86_FP 2
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define __COUNTER__ 0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _INTEGRAL_MAX_BITS 64
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_BUILD 0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_EXTENSIONS 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MT 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file end: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity-macro-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file begin: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity-compiler-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> ﻿
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file end: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc-config-0\coverity-compiler-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Configuration read from: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity_config.xml
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Node: coverity
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>   Node: config
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>     Node: build
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>       Node: compiler
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_name Value: cl
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_dir Value: c:\program files (x86)\microsoft visual studio 12.0\vc\bin
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_translator Value: msvc_cxx
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: comp_lang Value: C/C++
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: id Value: msvc_cxx-cl-1800-b68ccd3711e85e39c1b7dd6be15fd487-0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: version Value: 1800
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>       Node: options
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: id Value: msvc_cxx-cl-1800-b68ccd3711e85e39c1b7dd6be15fd487-0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: template_config_option_id Value: msvc_cxx-cl-.*
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_remove_arg Value: [-/]Fo.+
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_remove_arg Value: [-/]c
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_remove_next_arg Value: [-/]Fo
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_switch Value: /E
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: preprocess_compile_switch Value: /C
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: pre_preinclude_file Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-macro-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: pre_preinclude_file Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-compiler-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: -w
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --no_stdarg_builtin
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --size_t_type=j
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --ptrdiff_t_type=i
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --type_sizes=w2x8li4s2ed8fP4
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --type_alignments=w2x8li4s2ed8fP4
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --enable_declspec
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --default_cdecl
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: --microsoft_version
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: prepend_arg Value: 1800
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /E
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /EP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /P
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /Zg
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /Zs
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /?
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /HELP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /help
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: /ZW
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -E
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -EP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -P
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -Zg
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -Zs
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -?
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -HELP
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -help
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_arg Value: -ZW
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: /CLR
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: -CLR
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: /clr
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_substring Value: -clr
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_file Value: conftest\.c{1,2}$
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: skip_file Value: conftest\.cpp$
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: opt_preinclude_file Value: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0/../user_nodefs.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>         Node: begin_command_line_config
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|>   Node: md5 Value: be37dd59c696622ef425bcc50f979d7c
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file begin: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-macro-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> ﻿
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_VER) || defined(__coverity_undefine__MSC_VER))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_VER 1800
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_FULL_VER) || defined(__coverity_undefine__MSC_FULL_VER))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_FULL_VER 180031101
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_M_IX86) || defined(__coverity_undefine__M_IX86))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _M_IX86 600
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_WIN32) || defined(__coverity_undefine__WIN32))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _WIN32 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_M_IX86_FP) || defined(__coverity_undefine__M_IX86_FP))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _M_IX86_FP 2
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(__COUNTER__) || defined(__coverity_undefine___COUNTER__))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define __COUNTER__ 0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(__cplusplus) || defined(__coverity_undefine___cplusplus))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define __cplusplus 199711L
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_CPPRTTI) || defined(__coverity_undefine__CPPRTTI))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _CPPRTTI 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_INTEGRAL_MAX_BITS) || defined(__coverity_undefine__INTEGRAL_MAX_BITS))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _INTEGRAL_MAX_BITS 64
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_BUILD) || defined(__coverity_undefine__MSC_BUILD))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_BUILD 0
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MSC_EXTENSIONS) || defined(__coverity_undefine__MSC_EXTENSIONS))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MSC_EXTENSIONS 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_MT) || defined(__coverity_undefine__MT))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _MT 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #if !(defined(_NATIVE_NULLPTR_SUPPORTED) || defined(__coverity_undefine__NATIVE_NULLPTR_SUPPORTED))
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #define _NATIVE_NULLPTR_SUPPORTED 1
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> #endif
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file end: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-macro-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file begin: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-compiler-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> ﻿
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> Preincluded file end: c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-compiler-compat.h
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> 
+2015-04-20T22:51:11.462340Z|cov-translate|35252|output|> COV_TRANSLATE EXPANDED ARGS: "/c" "/ZI" "/nologo" "/W4" "/WX-" "/sdl" "/Od" "/Oy-" "/D" "CODE_ANALYSIS" "/D" "WIN32" "/D" "_DEBUG" "/D" "_CONSOLE" "/D" "_LIB" "/D" "_UNICODE" "/D" "UNICODE" "/D" "_AFXDLL" "/GF" "/Gm" "/RTC1" "/MDd" "/GS" "/Zc:wchar_t" "/Zc:forScope" "/Ycstdafx.h" "/FpDebug\FileFindBench.pch" "/FoDebug\" "/FdDebug\vc120.pdb" "/Gd" "/TP" "/analyze" "/analyze:pluginC:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" "/errorReport:queue" "/analyze:quiet" "stdafx.cpp"
+2015-04-20T22:51:11.493589Z|cov-translate|35252|output|> Creating precompiled header (PCH) data for source file "C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\stdafx.cpp" using command:
+2015-04-20T22:51:11.493589Z|cov-translate|35252|output|> "C:/Users/Alexander Riccio/cov-analysis-win64-7.6.0/bin/cov-emit.exe" -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1800 --pre_preinclude "c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-macro-compat.h" --pre_preinclude "c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-compiler-compat.h" --preinclude "c:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc-config-0\..\user_nodefs.h" --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DCODE_ANALYSIS -DUNICODE -DWIN32 -D_AFXDLL -D_CONSOLE -D_DEBUG=1 -D_DLL=1 -D_LIB -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i -E --append_macro_definitions --pch_tu=7 "--pch_name=C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\Debug\FileFindBench.pch" --no_xrefs "--dir=c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int" --source_file=C:\Users\ALEXAN~1\AppData\Local\Temp\cov-AlexanderRiccio\a9c41a1376b103f97b8a2f3861cc2813\cov-AlexanderRiccio\71e50d69588fde1c49629859a8b1a7cb\temp_pch.covpch stdafx.cpp 
+2015-04-20T22:51:13.271407Z|cov-translate|35252|output|> Successfully created PCH data for source file C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\stdafx.cpp
+2015-04-20T22:51:13.872147Z|cov-translate|35252|output|> [STATUS] Compiling stdafx.cpp
+2015-04-20T22:51:13.872147Z|cov-translate|35252|output|> "C:/Users/Alexander Riccio/cov-analysis-win64-7.6.0/bin/cov-emit.exe" "--dir=c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int" --ignore_path=C:\Users\ALEXAN~1\AppData\Local\Temp\cov-AlexanderRiccio\a9c41a1376b103f97b8a2f3861cc2813\cov-configure --ignore_path=C:\Users\ALEXAN~1\AppData\Local\Temp\cov-AlexanderRiccio\a9c41a1376b103f97b8a2f3861cc2813\cov-AlexanderRiccio\71e50d69588fde1c49629859a8b1a7cb -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1800 --pre_preinclude "c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-macro-compat.h" --pre_preinclude "c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\ALEXANDERLAPTOP\config\b68ccd3711e85e39c1b7dd6be15fd487\msvc_cxx-config-0\coverity-compiler-compat.h" --preinclude "c:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\config\template-msvc-config-0\..\user_nodefs.h" --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DCODE_ANALYSIS -DUNICODE -DWIN32 -D_AFXDLL -D_CONSOLE -D_DEBUG=1 -D_DLL=1 -D_LIB -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i stdafx.cpp 
+2015-04-20T22:51:19.803537Z|cov-translate|35252|output|> Emit for file 'C:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/FileFindBench/stdafx.cpp' complete.
+2015-04-20T22:51:19.803537Z|cov-translate|35252|output|> 
+2015-04-20T22:51:19.944162Z|cov-translate|35252|output|> 
+2015-04-20T22:51:20.131651Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe" @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmpe7a7bd06048146c4bebb97e5a7c6faf3.tmp" /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmp94c339cc8ee94833b5d9d8acd6a53cbf.rsp"
+2015-04-20T22:51:20.162901Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe" "@C:\Users\Alexander Riccio\AppData\Local\Temp\tmp94c339cc8ee94833b5d9d8acd6a53cbf.rsp"
+2015-04-20T22:51:23.222551Z|cov-internal-capture|32284|info|> CWD: C:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\FileFindBench\
+2015-04-20T22:51:23.222551Z|cov-internal-capture|32284|info|> COMPILING: "C:\Users\Alexander Riccio\cov-analysis-win64-7.6.0\bin\cov-translate.exe" "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe" "@C:\Users\Alexander Riccio\AppData\Local\Temp\tmp94c339cc8ee94833b5d9d8acd6a53cbf.rsp"
+2015-04-20T22:51:23.222551Z|cov-internal-capture|32284|info|> OUTPUT_FILE: pipe:\\.\pipe\cov-log-a0181638ea6ee566d97cc000f2980bd1.s
+2015-04-20T22:51:23.297019Z|cov-translate|50204|output|> Using cached template compiler configuration instance c:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/cov-int/emit/ALEXANDERLAPTOP/config/b68ccd3711e85e39c1b7dd6be15fd487/coverity_config.xml
+2015-04-20T22:51:23.312647Z|cov-translate|50204|output|> COV_TRANSLATE EXPANDED ARGS: "/c" "/ZI" "/nologo" "/W4" "/WX-" "/sdl" "/Od" "/Oy-" "/D" "CODE_ANALYSIS" "/D" "WIN32" "/D" "_DEBUG" "/D" "_CONSOLE" "/D" "_LIB" "/D" "_UNICODE" "/D" "UNICODE" "/D" "_AFXDLL" "/GF" "/Gm" "/RTC1" "/MDd" "/GS" "/Zc:wchar_t" "/Zc:forScope" "/Yustdafx.h" "/FpDebug\FileFindBench.pch" "/FoDebug\" "/FdDebug\vc120.pdb" "/Gd" "/TP" "/analyze" "/analyze:pluginC:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" "/errorReport:queue" "/analyze:quiet" "FileFindBench.cpp"
+2015-04-20T22:51:23.390772Z|cov-translate|50204|output|> [STATUS] Compiling FileFindBench.cpp
+2015-04-20T22:51:23.390772Z|cov-translate|50204|output|> "C:/Users/Alexander Riccio/cov-analysis-win64-7.6.0/bin/cov-emit.exe" "--dir=c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int" --ignore_path=C:\Users\ALEXAN~1\AppData\Local\Temp\cov-AlexanderRiccio\a9c41a1376b103f97b8a2f3861cc2813\cov-configure --ignore_path=C:\Users\ALEXAN~1\AppData\Local\Temp\cov-AlexanderRiccio\a9c41a1376b103f97b8a2f3861cc2813\cov-AlexanderRiccio\6ac28d03e24d122c971baf6fe9b072d1 -w --no_stdarg_builtin --enable_declspec --default_cdecl --microsoft_version 1800 --c++ --microsoft --default_cdecl -I "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include" -I "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\um" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\shared" -I "C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" --import_dir Debug -I Debug --no_alternative_tokens --typeinfo_nostd --exceptions -DCODE_ANALYSIS -DUNICODE -DWIN32 -D_AFXDLL -D_CONSOLE -D_DEBUG=1 -D_DLL=1 -D_LIB -D_MT=1 -D_UNICODE -D__MSVC_RUNTIME_CHECKS --type_sizes=dex8Pfil4sw2 --type_alignments=dex8Pfil4sw2 --size_t_type=j --ptrdiff_t_type=i "--ignore_path=c:\Users\Alexander Riccio\Documents\GitHub\FileFindBench\FileFindBench\cov-int\emit\.cov_pch" --mspch_id 7 --source_file=C:\Users\ALEXAN~1\AppData\Local\Temp\cov-AlexanderRiccio\a9c41a1376b103f97b8a2f3861cc2813\cov-AlexanderRiccio\6ac28d03e24d122c971baf6fe9b072d1\a774b1f4eaa06ebe6464f06198de63f3.cc FileFindBench.cpp 
+2015-04-20T22:51:28.638138Z|cov-translate|50204|output|> Emit for file 'C:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/FileFindBench/FileFindBench.cpp' complete.
+2015-04-20T22:51:28.638138Z|cov-translate|50204|output|> 
+2015-04-20T22:51:28.638138Z|cov-translate|50204|output|> 
+2015-04-20T22:51:28.794368Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe" @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmpc1e5b6abd4f04ff4b05a79c7bbb0a288.tmp" /c "C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe"  /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Debug\FileFindBench.res" FileFindBench.rc
+2015-04-20T22:51:28.825605Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe" /D _UNICODE /D UNICODE /D _AFXDLL /l0x0409 /nologo /foDebug\FileFindBench.res FileFindBench.rc
+2015-04-20T22:51:29.028733Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe" /a @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmp97ece4a914c14140a7be097425318617.tmp" /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:QUEUE @"C:\Users\Alexander Riccio\AppData\Local\Temp\tmpd04977d84a974d02b9254aedb4e93a6f.rsp"
+2015-04-20T22:51:29.091233Z|cov-internal-capture|32284|info|> EXECUTING: "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe" /ERRORREPORT:QUEUE "@C:\Users\Alexander Riccio\AppData\Local\Temp\tmpd04977d84a974d02b9254aedb4e93a6f.rsp"
+2015-04-20T22:51:29.200610Z|cov-internal-capture|32284|info|> EXECUTING: mt /nologo /out:"C:\Users\ALEXAN~1\AppData\Local\Temp\lnk{261A68D2-ABEF-4C3B-8209-B212984DC337}.tmp" /manifest "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" C:\Users\ALEXAN~1\AppData\Local\Temp\lnk{0F2F55AB-8EB8-4054-8F80-20106E4CE220}.tmp
+2015-04-20T22:51:29.247485Z|cov-internal-capture|32284|info|> EXECUTING: rc /nologo /x /fo "C:\Users\ALEXAN~1\AppData\Local\Temp\lnk{F6137429-2D2A-4DFB-955A-0A611639983A}.tmp" "C:\Users\ALEXAN~1\AppData\Local\Temp\lnk{942D08FD-A68D-43AA-814B-A41BB4B5A121}.tmp"
+2015-04-20T22:51:29.309989Z|cov-internal-capture|32284|info|> EXECUTING: cvtres /machine:x86 /nologo /out:"C:\Users\ALEXAN~1\AppData\Local\Temp\lnk{24A42384-5DE7-458B-A5A0-12989C846AFC}.tmp" /readonly "Debug\FileFindBench.res" "C:\Users\ALEXAN~1\AppData\Local\Temp\lnk{F6137429-2D2A-4DFB-955A-0A611639983A}.tmp"
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> 
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> Build time (cov-build overall): 00:02:45.018902
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> 
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> Build time (C/C++/C# emits total): 00:02:11.513644
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> 
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> 3 C/C++ compilation units (100%) are ready for analysis
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> 1 C# compilation units (100%) are ready for analysis
+2015-04-20T22:51:30.438534Z|cov-build|31740|info|> The cov-build utility completed successfully.
+2015-04-20T22:51:30.454159Z|cov-build|31740|info|> 

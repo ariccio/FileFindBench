@@ -1,0 +1,4 @@
+--csc
+c:/windows/microsoft.net/framework/v4.0.30319/csc.exe
+--output
+c:/Users/Alexander Riccio/Documents/GitHub/FileFindBench/FileFindBench/cov-int/tmp/csc-libs-out-76f988b355f3df2f1ad5d5c097298fa0.txt

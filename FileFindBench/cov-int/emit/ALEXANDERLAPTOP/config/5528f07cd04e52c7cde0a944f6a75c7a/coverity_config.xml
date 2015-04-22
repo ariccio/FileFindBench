@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "coverity_config.dtd">
+<coverity>
+<!-- Version 7.6.0 -->
+<config>
+<include>$CONFIGDIR$\csc-config-0\coverity_config.xml</include>
+<include>$CONFIGDIR$\template-csc-config-0\coverity_config.xml</include>
+</config>
+</coverity>
